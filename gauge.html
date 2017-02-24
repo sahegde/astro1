@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.label{
+	font-size:22.5px;
+	fill:#ffffff;
+	text-anchor:middle;
+	alignment-baseline:middle;
+}
+.face{
+	stroke:#c8c8c8;
+	stroke-width:2;
+}
+.minorTicks{
+	stroke-width:2;
+	stroke:white;
+}
+.majorTicks{
+	stroke:white;
+	stroke-width:3;
+}
+
+</style>
+<body>
+<svg width="900" height="700"></svg>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="http://vizjs.org/viz.v1.0.0.min.js"></script>
+<script>
+  var svg=d3.select("svg");
+  var g=svg.append("g").attr("transform","translate(450,350)");
+  
+  var gg = viz.gg()
+	.domain([0,100])
+	.outerRadius(300)
+	.innerRadius(30)
+	.value(0.5*100)
+	.duration(1000);
+
+  gg.defs(svg);
+  g.call(gg);  
+
+  d3.select(self.frameElement).style("height", "700px");
+  setInterval( 
+  	function(){
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				var temp = this.responseText;
+				console.log("domai1: "+temp);
+				gg.setNeedle(temp);
+			}
+		};
+		xhttp.open("GET", "http://localhost:8001/healthData", true);
+		xhttp.send();
+  	},2000);
+
+</script>
+</body>
+</html>

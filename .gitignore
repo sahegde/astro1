@@ -1,0 +1,7 @@
+.bowerrc
+.build/
+.editorconfig
+.eslintrc
+.nodemonignore
+.npmignore
+.yo-rc.json

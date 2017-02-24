@@ -1,0 +1,1569 @@
+
+VMware
+From Wikipedia, the free encyclopedia
+Ambox current red.svg
+This article needs to be updated. Please update this article to reflect recent events or newly available information. (March 2016)
+VMware Inc.
+Vmware.svg
+VMware HQ campus 3401 Hillview entrance.JPG
+Campus headquarters, Palo Alto, California
+Type
+Public
+Traded as	NYSE: VMW
+Industry	Computer software
+Founded	October 26, 1998; 18 years ago
+Palo Alto, California, U.S.
+Founder	Diane Greene
+Mendel Rosenblum
+Scott Devine
+Ellen Wang
+Edouard Bugnion
+Headquarters	Palo Alto, California, U.S.
+Products	vSphere, ESX, ESXi, Workstation, Fusion, Player, Server, VMware Service Manager, ThinApp, View, ACE, Lab Manager, Infrastructure, Converter, Site Recovery Manager, Stage Manager, vRealize Automation, vRealize Operations Management Suite, VMware NSX, vRealize Business
+Revenue	Increase US$6.035 billion (2014)
+Operating income
+Decrease US$1.027 billion (2014)
+Net income
+Decrease US$0.86 billion (2014)
+Total assets	Decrease US$15.216 billion (2014)
+Total equity	Increase US$7.586 billion (2014)
+Number of employees
+18,000[1] (December 31, 2014)
+Parent	Dell Technologies
+Website	www.vmware.com
+VMware, Inc. is a subsidiary of Dell Technologies, that provides cloud and virtualization software and services,[2][3][4] and claims to be the first to successfully virtualize the x86 architecture commercially.[5] Founded in 1998, VMware is based in Palo Alto, California. In 2004, it was acquired by and became a subsidiary of EMC Corporation, then on August 14, 2007, EMC sold 15% of the company in a New York Stock Exchange IPO. The company trades under the symbol VMW.[6]
+
+VMware's desktop software runs on Microsoft Windows, Linux, and Mac OS X, while its enterprise software hypervisors for servers, VMware ESX and VMware ESXi, are bare-metal hypervisors that run directly on server hardware without requiring an additional underlying operating system.[7]
+
+In anticipation of Dell's acquisition of parent company EMC, VMWare announced a restructuring in January 2016 to reduce about 800 positions, and some executives resigned.[8][9][10][11][12] There were doubts about the company's future and its product lines, particularly for the desktop. In August 2016, announcing the release of new desktop products, the company said "we’re very much alive and well".[13]
+
+Contents  [hide] 
+1	History
+1.1	Acquisitions
+1.2	Litigation
+2	Core product design
+3	Products
+3.1	Desktop software
+3.2	Server software
+3.3	Cloud management software
+3.4	Public cloud
+3.5	Virtual desktop infrastructure
+3.6	Application management
+3.7	Storage management
+3.8	Backup software
+3.9	Networking and security products
+3.10	Other products
+4	See also
+5	References
+6	External links
+History[edit]
+In 1998, VMware was founded by Diane Greene, Mendel Rosenblum, Scott Devine, Ellen Wang and Edouard Bugnion. Greene and Rosenblum, who are married, first met while at the University of California, Berkeley.[14] Edouard Bugnion remained the chief architect and CTO of VMware until 2005,[15] and went on to found Nuova Systems (now part of Cisco). For the first year, VMware operated in stealth mode, with roughly 20 employees by the end of 1998. The company was launched officially early in the second year, in February 1999, at the DEMO Conference organized by Chris Shipley.[16] The first product, VMware Workstation, was delivered in May 1999,[17] and the company entered the server market in 2001 with VMware GSX Server (hosted) and VMware ESX Server (hostless).[18]
+
+In 2003, VMware launched VMware Virtual Center, the VMotion, and Virtual SMP technology. 64-bit support appeared in 2004. The same year, the company was acquired by EMC Corporation for US$625 million.[19]
+
+In August 2007, EMC released 15% of the company's shares in VMware in an initial public offering on the New York Stock Exchange. The stock debuted at US$29 per share and closed the day at US$51.[20]
+
+On July 8, 2008, VMware co-founder, president and CEO Diane Greene, was unexpectedly fired by the VMware Board of Directors and replaced by Paul Maritz, a retired 14-year Microsoft veteran who was heading EMC's cloud computing business unit.[21] In the same news release VMware stated that 2008 revenue growth will be "modestly below the previous guidance of 50% growth over 2007". As a result, market price of VMware dropped nearly 25%. Then, on September 10, 2008, Rosenblum, the company's chief scientist, resigned.
+
+On September 16, 2008, VMware announced a collaboration with Cisco Systems. One result was the Cisco Nexus 1000V, a distributed virtual software switch, an integrated option in the VMware infrastructure.[22]
+
+On April 12, 2011, VMware released an open source platform-as-a-service system called Cloud Foundry, as well as a hosted version of the service. This supported application deployment for Java, Ruby on Rails, Sinatra, Node.js, and Scala, as well as database support for MySQL, MongoDB, Redis, Postgres, RabbitMQ.[23]
+
+In March 2013, VMware gave details of a spin-off of Pivotal. All of VMware's application- and developer-oriented products, including Spring, tc Server, Cloud Foundry, RabbitMQ, GemFire, and SQLFire were transferred to this organization.[24] It also announced that it was introducing its own IaaS service, vCloud Hybrid Service, in a shift of its strategy of selling software to cloud service providers.[citation needed]
+
+In April 2013, Pivotal was formally created with GE as a minority shareholder.[citation needed]
+
+In May 2013, VMware launched vCloud Hybrid Service at its new Palo Alto headquarters (vCloud Hybrid Service now known as vCloud Air),[25] announcing an early access program in a Las Vegas data center. The service is designed to function as an extension of its customer's existing vSphere installations, with full compatibility with existing virtual machines virtualized with VMware software and tightly integrated networking. The service is based on vCloud Director 5.1/vSphere 5.1.[citation needed]
+
+In September 2013 at VMworld San Francisco, VMware announced general availability of vCloud Hybrid Service and expansion to Sterling, Virginia, Santa Clara, California, Dallas, Texas, and a service beta in the UK. It also pre-announced a disaster recovery and desktop-as-a-service offering based on Desktone, which it went on to acquire in October 2013.[citation needed]
+
+Following the news in early 2016 of the impending acquisition by Dell, and despite Dell's assurance that VMware would remain independent, VMware president and COO Carl Eschenbach left VMware to join Sequoia Capital, and Martin Casado, VMware's general manager for its Networking and Security business, left for Andreessen Horowitz. Analysts commented that the cultures at Dell and EMC, and at EMC and VMware, are different, and said that they had heard that impending corporate cultural collisions and potentially radical product overlap pruning, would cause many EMC and VMware personnel to leave;[26] VMware CEO Pat Gelsinger, following rumours, categorically denied that he would leave.[27] [11]
+
+Acquisitions[edit]
+Date	Company	Notes
+October 2005	Asset Optimization Group	Specialized in capacity planning.[28]
+June 2006	Akimbi Systems	Specialized in lab management.[29]
+September 2007	Dunes Technologies	VMware acquired the Swiss company for an undisclosed sum.[30]
+July 2008	B-hive Networks	VMware acquired the Israeli start-up for an undisclosed sum. Following the acquisition VMware opened an R&D center in Israel, based initially on B-Hive’s facilities and team in Israel.[31]
+October 2008	Trango Virtual Processors	Was a Grenoble-based mobile hypervisor developer.[32]
+November 26, 2008	Tungsten Graphics	Core expertise in 3D graphics driver development.[33]
+August 10, 2009	SpringSource	Performed enterprise and web application development and management.[34] The acquisition allowed use of the term platform as a service (PaaS). The acquisition expanded VMware's education services to include SpringSource University and its authorized training partners such as Spring People in India.[35] The SpringSource assets became part of the Pivotal joint venture in April 2013.
+January 12, 2010	Zimbra (software)	Designed for open-source collaboration, it was bought from Yahoo and (later sold in July 2013 to Telligent Systems).[citation needed]
+May 6, 2010	GemStone	Incorporated into VMware's SpringSource division.[citation needed]
+April 26, 2011	SlideRocket	A startup which developed a SaaS application for building business presentations that are stored online. Through a Web-based interface, users can handle all parts of the process, from designing slides and compiling content, to reviewing documents and publishing and delivering them. VMware subsequently sold SlideRocket to ClearSlide on March 5, 2013.[citation needed]
+August 2011	PacketMotion	User Activity Monitoring startup. Their PacketSentry product was planned to be incorporated into VMware vCloud Networking and Security[36] but then it was EOSL'd by the end of 2012.[37]
+May 22, 2012	Wanova	[38]
+July 2, 2012	DynamicOps	[39]
+July 23, 2012	Nicira	Software for network virtualization, which was later included in the VMware NSX product.[40][41] The deal was valued at over $1.2 billion.[42]
+February 11, 2013	Virsto	[43]
+October 15, 2013	Desktone	[44]
+January 22, 2014	AirWatch and Wandering WiFi	Acquired for US$1.54 billion.[45][46][47]
+March 6, 2014	ThirdSky	ITIL/ITSM Consulting.
+August 20, 2014	CloudVolumes (formerly SnapVolumes)	[48]
+October 29, 2014	Continuent	[49]
+Litigation[edit]
+In March 2015, the Software Freedom Conservancy announced it was funding litigation by Christoph Hellwig against VMware for violation of his copyrights in its ESXi product. The case will be heard in Hamburg, Germany.[50] The SFC claims VMware is using both the Linux kernel and Busybox without respecting the terms of the GPL copyright license, while VMware told journalists that it believed the case was without merit[51] and expressed disappointment that Conservancy had resorted to litigation.[52]
+
+Core product design[edit]
+VMware developed a range of products, most notable of which are their hypervisors. VMware became well known for their first type 2 hypervisor known as GSX. This product has since evolved into two hypervisor products lines: VMware's type 1 hypervisors running directly on hardware and their hosted type 2 hypervisors.
+
+VMware software provides a completely virtualized set of hardware to the guest operating system.[53] VMware software virtualizes the hardware for a video adapter, a network adapter, and hard disk adapters. The host provides pass-through drivers for guest USB, serial, and parallel devices. In this way, VMware virtual machines become highly portable between computers, because every host looks nearly identical to the guest. In practice, a system administrator can pause operations on a virtual machine guest, move or copy that guest to another physical computer, and there resume execution exactly at the point of suspension. Alternatively, for enterprise servers, a feature called vMotion allows the migration of operational guest virtual machines between similar but separate hardware hosts sharing the same storage (or, with vMotion Storage, separate storage can be used, too). Each of these transitions is completely transparent to any users on the virtual machine at the time it is being migrated.
+
+VMware Workstation, Server, and ESX take a more optimized path to running target operating systems on the host than that of emulators (such as Bochs) which simulate the function of each CPU instruction on the target machine one-by-one, or that of dynamic recompilation which compiles blocks of machine-instructions the first time they execute, and then uses the translated code directly when the code runs subsequently (Microsoft Virtual PC for Mac OS X takes this approach). VMware software does not emulate an instruction set for different hardware not physically present. This significantly boosts performance, but can cause problems when moving virtual machine guests between hardware hosts using different instruction sets (such as found in 64-bit Intel and AMD CPUs), or between hardware hosts with a differing number of CPUs. Software that is CPU agnostic can usually survive such a transition, unless it is agnostic by forking at startup, in which case, the software or the guest OS must be stopped before moving it, then restarted after the move.
+
+VMware's products predate the virtualization extensions to the x86 instruction set, and do not require virtualization-enabled processors. On newer processors, the hypervisor is now designed to take advantage of the extensions. However, unlike many other hypervisors, VMware still supports older processors. In such cases, it uses the CPU to run code directly whenever possible (as, for example, when running user-mode and virtual 8086 mode code on x86). When direct execution cannot operate, such as with kernel-level and real-mode code, VMware products use binary translation (BT) to re-write the code dynamically. The translated code gets stored in spare memory, typically at the end of the address space, which segmentation mechanisms can protect and make invisible. For these reasons, VMware operates dramatically faster than emulators, running at more than 80% of the speed that the virtual guest operating system would run directly on the same hardware. In one study VMware claims a slowdown over native ranging from 0–6 percent for the VMware ESX Server.[54]
+
+VMware's approach avoids some of the difficulties of virtualization on x86-based platforms. Virtual machines may deal with offending instructions by replacing them, or by simply running kernel code in user mode. Replacing instructions runs the risk that the code may fail to find the expected content if it reads itself; one cannot protect code against reading while allowing normal execution, and replacing in place becomes complicated. Running the code unmodified in user mode will also fail, as most instructions which just read the machine state do not cause an exception and will betray the real state of the program, and certain instructions silently change behavior in user mode. One must always rewrite, performing a simulation of the current program counter in the original location when necessary and (notably) remapping hardware code breakpoints.
+
+Although VMware virtual machines run in user mode, VMware Workstation itself requires the installation of various drivers in the host operating system, notably to dynamically switch the Global Descriptor Table (GDT) and the Interrupt Descriptor Table (IDT).
+
+The VMware product line can also run different operating systems on a dual-boot system simultaneously by booting one partition natively while using the other as a guest within VMware Workstation.
+
+Products[edit]
+Desktop software[edit]
+VMware Workstation, 1999, the first product launched by VMware. This software suite allows users to run multiple instances of x86 or x86-64 -compatible operating systems on a single physical PC. At Workstation Pro v12 as of 2016.
+VMware Fusion provides similar functionality for users of the Intel Mac platform, along with full compatibility with virtual machines created by other VMware products.
+VMware Player was freeware for non-commercial use, without requiring a licence for VMware Workstation or VMware Fusion, and available for commercial use with permission. It was similar to Workstation, with reduced functionality; version numbers were not the same, e.g., Player 7 coexisted with Workstation 11. After version 7.10, VMware Player as such was replaced by VMware Workstation Player version 12, without some of the features of full Workstation Pro.
+VMware Workstation versions 12.0.0, 12.0.1, and 12.1.0 were released at intervals of about two months in 2015.[55] In January 2016 the entire development team behind VMWare Workstation and Fusion was disbanded and all US developers were immediately fired.[8][9][10][12] The future of these products remained vague; the company said that development would continue. On April 24, 2016 maintenance release 12.1.1 was released. VMware announced the release on 8 September 2016 of Workstation 12.5 and Fusion 8.5 as a free upgrade supporting Windows 10 Anniversary edition and Windows Server 2016.[13]
+
+Server software[edit]
+VMware has produced two virtualization products for servers:
+
+VMware vSphere[56] (also called "ESXi"), an enterprise-level product, can deliver greater performance than the freeware VMware Server, due to lower system overhead. VMware ESXi, as a "bare-metal" product, runs directly on the server hardware, allowing virtual servers to also use hardware more or less directly. In addition, VMware ESXi integrates into VMware vCenter, which offers extra services
+VMware Server (formerly called "GSX Server"; obsolete as of 2011)[57] was[58] also provided free of charge for non-commercial use, like VMware Player, and can also set up virtual machines. As a "hosted" application, VMware Server runs within an existing Linux or Windows operating system.
+Cloud management software[edit]
+VMware vRealize Suite - a cloud management platform purpose-built for a hybrid cloud.
+VMware EVO SDDC - EVO SDDC provides an easy way to deploy and operate a private cloud on an integrated SDDC system
+VMware Go was a web-based service to guide users of any expertise level through the installation and configuration of VMware vSphere Hypervisor. It was end-of-lifed in early 2014.
+
+Public cloud[edit]
+VMware vCloud Air is a public cloud computing service.
+
+Virtual desktop infrastructure[edit]
+VMware Horizon View is a virtual desktop infrastructure (VDI) product.
+
+Application management[edit]
+The VMware Workspace Portal is a self-service app store for workspace management[59]
+
+Storage management[edit]
+VMware VSAN (Virtual Storage Area Network), version 6.2 was released in early 2016.[60]
+
+Backup software[edit]
+In April 2011, EMC transferred control of Mozy to VMware.[61]
+
+Mozy produced MozyHome and MozyPro.[62] MozyHome is the consumer version of the Mozy backup service. It is available to buy on a monthly subscription.[63] MozyPro is the business version of the Mozy backup service. MozyPro requires a separate license for each computer that is being backed up, as well as a server license for any server that is being backed up. Customers then pay per gigabyte of data they have in the data center.[64]
+
+Networking and security products[edit]
+vCloud Networking and Security was a software-defined networking and security product. By 2013 it was superseded by VMware NSX, VMware's network virtualization product marketed using the term software-defined data center (SDDC).[65][66] The technology included some acquired from the purchase of Nicira for $1.26 billion, announced in July 2012.[41][42][41] Nicira was founded in 2007 by Martin Casado, Nick McKeown and Scott Shenker. Nicira created their own proprietary versions of the OpenFlow, Open vSwitch, and OpenStack networking projects.[67]
+
+Other products[edit]
+Workspace ONE allows mobile users to access to apps and data.[68]
+
+See also[edit]
+Comparison of platform virtualization software
+Hardware virtualization
+Hypervisor
+VMware VMFS
+References[edit]
+Jump up ^ "Form 10-K, Annual Report for Fiscal Year ended December 31, 2014" (PDF). VMware.com.
+Jump up ^ "VMware leader in virtualization market".
+Jump up ^ Lohr, Steve (2009-08-31). "VMware market share more than 80%". The New York Times. Retrieved 2010-05-27.
+Jump up ^ "VMware, Hyper-V virtualization leave others in the dust".
+Jump up ^ "Understanding full virtualization, paravirtualization, and hardware assist" (PDF). 2007-10-15. Retrieved 2014-12-11.
+Jump up ^ "Investor FAQs". Retrieved 2014-12-11.
+Jump up ^ "ESX Server Architecture". Vmware.com. Archived from the original on January 31, 2009. Retrieved 2009-10-22.
+^ Jump up to: a b "VMware Reports Fourth Quarter and Full Year 2015 Results". Press Release. VMware. January 26, 2016. Retrieved August 25, 2016.
+^ Jump up to: a b Simon Sharwood (January 27, 2016). "VMware axes Fusion and Workstation US devs". The Register. Retrieved August 25, 2016.
+^ Jump up to: a b Simon Sharwood (January 27, 2016). "VMware says vSphere in decline, new multi-cloud plan will ensure growth: Virtzilla beats the street, fires 800, crimps vCloud Air, doubles down on new products". The Register. Retrieved August 25, 2016.
+^ Jump up to: a b Ron Miller (January 26, 2016). "VMware Confirms Layoffs In Earnings Statement As It Prepares For Dell Acquisition". TechCrunch. Retrieved August 25, 2016.
+^ Jump up to: a b Christian Hammond (January 26, 2016). "A Tribute to VMware Workstation, Fusion, and Hosted UI". ChipLog. Retrieved August 25, 2016.
+^ Jump up to: a b Jon Brodkin (30 August 2016). "VMware says "we're not dead," updates Fusion and Workstation for free". Arstechnica.co.uk. Retrieved 8 September 2016.
+Jump up ^ Lashinksky, Adam (2007-10-02). "50 Most Powerful Women in Business — Full speed ahead". CNN. In 1988 she picked up a second master's, in computer science, at the University of California at Berkeley, where she met Rosenblum
+Jump up ^ "Edouard Bugnion lives in the virtual world".
+Jump up ^ "VMware Milestones".
+Jump up ^ "VMware company history".
+Jump up ^ "VMware ready to capitalize on hot server market". June 30, 2015.
+Jump up ^ "EMC Completes Acquisition of VMware". Vmware.com. Retrieved 2013-06-27.
+Jump up ^ Mullins, Robert (2007-08-14). "Update: VMware the bright spot on a gray Wall Street day". IDG News Service. Retrieved 2007-08-15.
+Jump up ^ Savitz, Eric (2008-07-08). "VMware ousts CEO Diane Greene; cuts '08 guidance". Barron's. Retrieved 2009-07-01.
+Jump up ^ "Virtual Networking Features of the VMware vNetwork Distributed Switch and Cisco Nexus 1000V Series Switches" (PDF).
+Jump up ^ Cloud Foundry Frequently Asked Questions
+Jump up ^ "EMC, VMW Analyst Day: Street Awaits 'Pivotal,' Financial Update". Retrieved 2014-12-11.
+Jump up ^ "Using VMware vCloud Connector". Retrieved 2014-12-11.
+Jump up ^ Chris Mellor (11 April 2016). "Cracks show in VMware exec ranks". The Register. Retrieved 11 May 2016.
+Jump up ^ Simon Sharwood (13 May 2016). "VMware CEO Pat Gelsinger quashes departure rumours". Channelregister.co.uk. Retrieved 2 June 2016.
+Jump up ^ "A look at VMware's past acquisitions".
+Jump up ^ "VMware acquires virtualization company Akimbi".
+Jump up ^ "VMware Acquires Dunes Technologies". VMware. Sep 11, 2007.
+Jump up ^ Vidra, Eze (May 28, 2008). "VMWare Snatches B-Hive, Opens R&D Center in Israel". VCcafe.
+Jump up ^ Ward, Keith. "The Next Frontier: Mobile Phone Hypervisors". Virtualizationreview.com. Retrieved 2013-06-27.
+Jump up ^ Marshall, David (2008-12-16), VMware's year end acquisition of Tungsten Graphics, InfoWorld
+Jump up ^ "VMware to Acquire SpringSource".
+Jump up ^ springpeople.com
+Jump up ^ "VMware and PacketMotion: Data Access Monitoring, Network Security & Compliance | United States". www.vmware.com. Retrieved 2016-01-05.
+Jump up ^ "VMware Support for PacketMotion Products | United States". www.vmware.com. Retrieved 2016-01-05.
+Jump up ^ "VMware To Acquire Wanova, Intelligent Desktop Solutions Provider". VMware. 2012-05-22. Retrieved 2012-06-01.
+Jump up ^ "VMware to Acquire DynamicOps, Inc". VMware. 2012-07-02. Retrieved 2013-06-27.
+Jump up ^ "VMware to Acquire Nicira". News release. VMware. July 23, 2012. Retrieved July 11, 2013.
+^ Jump up to: a b c Alex Williams (July 23, 2012). "VMware Buys Nicira For $1.26 Billion And Gives More Clues About Cloud Strategy". TechCrunch. Retrieved August 25, 2016.
+^ Jump up to: a b Julie Bort (October 26, 2014), "The Inside Story Of A $1 Billion Acquisition That Caused Cisco To Divorce Its Closest Partner, EMC", Business Insider, retrieved August 25, 2016
+Jump up ^ "VMware to Acquire Virsto". News release. VMware. February 11, 2013. Retrieved 2013-07-11.
+Jump up ^ "VMware Acquires Desktone". News release. VMware. October 15, 2013. Retrieved 2013-10-15.
+Jump up ^ "VMware's AirWatch Acquisition To Enhance Mobility In End-User Computing". Forbes. Forbes.com LLC. Retrieved 6 March 2014.
+Jump up ^ "VMware to Acquire AirWatch". Retrieved 2014-12-11.
+Jump up ^ "iPhone APIs Ultimately Led to VMware's AirWatch Acquisition". The Wall Street Journal. Dow Jones & Company, Inc. Retrieved 2014-03-06.
+Jump up ^ ZDNet. "VMware buys CloudVolumes for real-time desktop app delivery". zdnet.com. Retrieved 21 August 2014.
+Jump up ^ VMware vCloud Blog. "VMware Acquires Continuent". vmware.com. Retrieved 12 December 2014.
+Jump up ^ "Conservancy Announces Funding for GPL Compliance Lawsuit". Software Freedom Conservancy. Retrieved 6 March 2015.
+Jump up ^ Phipps, Simon (5 March 2015). "VMware heads to court over GPL violations". InfoWorld. Retrieved 11 March 2015.
+Jump up ^ "VMware Update to Mr. Hellwig's Legal Proceedings". VMware. Retrieved 11 March 2015.
+Jump up ^ "How does VMWare Work?". Extremetech.com. 2009-06-22. Retrieved 2009-07-01.
+Jump up ^ "A Performance Comparison of Hypervisors" (PDF).
+Jump up ^ "Download VMware Workstation Player". VMware. Retrieved 11 May 2016. Download site for VMware Player 7.x and Workstation Player 12.x
+Jump up ^ VMware ESXi Bare-Metal Hypervisor for Multiple Virtual Machines - United States. VMware.com. Retrieved on 2013-10-16.
+Jump up ^ "VMware Products Life Cycle Policies". VMware.
+Jump up ^ "VMware Server, Free Virtualization Download for Virtual Server Consolidation". Vmware.com. 2011-06-30. Retrieved 2013-06-27.
+Jump up ^ "Workspace Portal". VMware. 2015-03-12. Retrieved 2015-03-12.
+Jump up ^ Forrest, Conner (February 10, 2016). "VMware VSAN 6.2: The 3 things you need to know". TechRepublic. Retrieved 2016-02-10.
+Jump up ^ Mellor, Chris (April 5, 2011). "VMware 'buys' Mozy for its cloudy goodness". The Register. Retrieved October 3, 2013.
+Jump up ^ "MozyHome / MozyPro". CrunchBase. January 1, 2008. Retrieved 2010-08-30.
+Jump up ^ Kodesh, Harel (February 1, 2011). "New MozyHome Plans". Retrieved 2011-02-02.
+Jump up ^ "MozyPro Launches". TechCrunch. April 3, 2007. Retrieved 2010-08-31.
+Jump up ^ Morreale, Patricia A.; Anderson, James M. (2014-12-03). Software Defined Networking: Design and Deployment. CRC Press (published 2014). p. 75. ISBN 9781482238631. Retrieved 2014-11-14. VMware NSX creates a virtual network overlay that is loosely coupled to the physical network underneath.
+Jump up ^ Timothy Prickett Morgan (March 14, 2013). "VMware NSX mashes up Nicira and homegrown network virt: Virtualizing entire data centers, including admins for systems and networks". The Register. Retrieved August 25, 2016.
+Jump up ^ Matthew Palmer (July 13, 2012). "vSwitch the New Battleground for Network Virtualization". Sdncentral.com. Retrieved August 25, 2016.
+Jump up ^ Hernandez, Pedro (2016-06-13). "VMware Workspace ONE Anchors Mobile Management on Identity". Mobile/Wireless. Datamation. QuinStreet Inc. Retrieved 2016-06-23. [...] Workspace ONE [...] integrates elements from AirWatch, VMware Identity Manager and Horizon Air to create secure, user-centric app experiences for both mobile workers and IT administrators based on user identities and policies governing their access to corporate apps and data.
+External links[edit]
+	Wikimedia Commons has media related to VMware.
+Official website
+[show] v t e
+EMC Corporation
+[show] v t e
+Major information technology companies
+Categories: 1998 establishments in CaliforniaCloud computing providersCompanies based in Palo Alto, CaliforniaCompanies established in 1998Companies listed on the New York Stock ExchangeEMC CorporationSoftware companies based in the San Francisco Bay AreaVMware
+Navigation menu
+Not logged inTalkContributionsCreate accountLog inArticleTalkReadEditView historySearch
+
+Search Wikipedia
+Go
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+Wikipedia store
+Interaction
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact page
+Tools
+What links here
+Related changes
+Upload file
+Special pages
+Permanent link
+Page information
+Wikidata item
+Cite this page
+Print/export
+Create a book
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+Languages
+العربية
+বাংলা
+Català
+Čeština
+Deutsch
+Ελληνικά
+Español
+فارسی
+Français
+한국어
+Bahasa Indonesia
+Italiano
+עברית
+Қазақша
+Limburgs
+Magyar
+മലയാളം
+Nederlands
+日本語
+Norsk bokmål
+Occitan
+Polski
+Português
+Română
+Русский
+Simple English
+Српски / srpski
+Suomi
+Svenska
+Türkçe
+Українська
+Tiếng Việt
+中文
+Edit links
+This page was last modified on 16 November 2016, at 11:58.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaDevelopersCookie statementMobile viewWikimedia Foundation Powered by MediaWiki
+
+VMware
+From Wikipedia, the free encyclopedia
+Ambox current red.svg
+This article needs to be updated. Please update this article to reflect recent events or newly available information. (March 2016)
+VMware Inc.
+Vmware.svg
+VMware HQ campus 3401 Hillview entrance.JPG
+Campus headquarters, Palo Alto, California
+Type
+Public
+Traded as	NYSE: VMW
+Industry	Computer software
+Founded	October 26, 1998; 18 years ago
+Palo Alto, California, U.S.
+Founder	Diane Greene
+Mendel Rosenblum
+Scott Devine
+Ellen Wang
+Edouard Bugnion
+Headquarters	Palo Alto, California, U.S.
+Products	vSphere, ESX, ESXi, Workstation, Fusion, Player, Server, VMware Service Manager, ThinApp, View, ACE, Lab Manager, Infrastructure, Converter, Site Recovery Manager, Stage Manager, vRealize Automation, vRealize Operations Management Suite, VMware NSX, vRealize Business
+Revenue	Increase US$6.035 billion (2014)
+Operating income
+Decrease US$1.027 billion (2014)
+Net income
+Decrease US$0.86 billion (2014)
+Total assets	Decrease US$15.216 billion (2014)
+Total equity	Increase US$7.586 billion (2014)
+Number of employees
+18,000[1] (December 31, 2014)
+Parent	Dell Technologies
+Website	www.vmware.com
+VMware, Inc. is a subsidiary of Dell Technologies, that provides cloud and virtualization software and services,[2][3][4] and claims to be the first to successfully virtualize the x86 architecture commercially.[5] Founded in 1998, VMware is based in Palo Alto, California. In 2004, it was acquired by and became a subsidiary of EMC Corporation, then on August 14, 2007, EMC sold 15% of the company in a New York Stock Exchange IPO. The company trades under the symbol VMW.[6]
+
+VMware's desktop software runs on Microsoft Windows, Linux, and Mac OS X, while its enterprise software hypervisors for servers, VMware ESX and VMware ESXi, are bare-metal hypervisors that run directly on server hardware without requiring an additional underlying operating system.[7]
+
+In anticipation of Dell's acquisition of parent company EMC, VMWare announced a restructuring in January 2016 to reduce about 800 positions, and some executives resigned.[8][9][10][11][12] There were doubts about the company's future and its product lines, particularly for the desktop. In August 2016, announcing the release of new desktop products, the company said "we’re very much alive and well".[13]
+
+Contents  [hide] 
+1	History
+1.1	Acquisitions
+1.2	Litigation
+2	Core product design
+3	Products
+3.1	Desktop software
+3.2	Server software
+3.3	Cloud management software
+3.4	Public cloud
+3.5	Virtual desktop infrastructure
+3.6	Application management
+3.7	Storage management
+3.8	Backup software
+3.9	Networking and security products
+3.10	Other products
+4	See also
+5	References
+6	External links
+History[edit]
+In 1998, VMware was founded by Diane Greene, Mendel Rosenblum, Scott Devine, Ellen Wang and Edouard Bugnion. Greene and Rosenblum, who are married, first met while at the University of California, Berkeley.[14] Edouard Bugnion remained the chief architect and CTO of VMware until 2005,[15] and went on to found Nuova Systems (now part of Cisco). For the first year, VMware operated in stealth mode, with roughly 20 employees by the end of 1998. The company was launched officially early in the second year, in February 1999, at the DEMO Conference organized by Chris Shipley.[16] The first product, VMware Workstation, was delivered in May 1999,[17] and the company entered the server market in 2001 with VMware GSX Server (hosted) and VMware ESX Server (hostless).[18]
+
+In 2003, VMware launched VMware Virtual Center, the VMotion, and Virtual SMP technology. 64-bit support appeared in 2004. The same year, the company was acquired by EMC Corporation for US$625 million.[19]
+
+In August 2007, EMC released 15% of the company's shares in VMware in an initial public offering on the New York Stock Exchange. The stock debuted at US$29 per share and closed the day at US$51.[20]
+
+On July 8, 2008, VMware co-founder, president and CEO Diane Greene, was unexpectedly fired by the VMware Board of Directors and replaced by Paul Maritz, a retired 14-year Microsoft veteran who was heading EMC's cloud computing business unit.[21] In the same news release VMware stated that 2008 revenue growth will be "modestly below the previous guidance of 50% growth over 2007". As a result, market price of VMware dropped nearly 25%. Then, on September 10, 2008, Rosenblum, the company's chief scientist, resigned.
+
+On September 16, 2008, VMware announced a collaboration with Cisco Systems. One result was the Cisco Nexus 1000V, a distributed virtual software switch, an integrated option in the VMware infrastructure.[22]
+
+On April 12, 2011, VMware released an open source platform-as-a-service system called Cloud Foundry, as well as a hosted version of the service. This supported application deployment for Java, Ruby on Rails, Sinatra, Node.js, and Scala, as well as database support for MySQL, MongoDB, Redis, Postgres, RabbitMQ.[23]
+
+In March 2013, VMware gave details of a spin-off of Pivotal. All of VMware's application- and developer-oriented products, including Spring, tc Server, Cloud Foundry, RabbitMQ, GemFire, and SQLFire were transferred to this organization.[24] It also announced that it was introducing its own IaaS service, vCloud Hybrid Service, in a shift of its strategy of selling software to cloud service providers.[citation needed]
+
+In April 2013, Pivotal was formally created with GE as a minority shareholder.[citation needed]
+
+In May 2013, VMware launched vCloud Hybrid Service at its new Palo Alto headquarters (vCloud Hybrid Service now known as vCloud Air),[25] announcing an early access program in a Las Vegas data center. The service is designed to function as an extension of its customer's existing vSphere installations, with full compatibility with existing virtual machines virtualized with VMware software and tightly integrated networking. The service is based on vCloud Director 5.1/vSphere 5.1.[citation needed]
+
+In September 2013 at VMworld San Francisco, VMware announced general availability of vCloud Hybrid Service and expansion to Sterling, Virginia, Santa Clara, California, Dallas, Texas, and a service beta in the UK. It also pre-announced a disaster recovery and desktop-as-a-service offering based on Desktone, which it went on to acquire in October 2013.[citation needed]
+
+Following the news in early 2016 of the impending acquisition by Dell, and despite Dell's assurance that VMware would remain independent, VMware president and COO Carl Eschenbach left VMware to join Sequoia Capital, and Martin Casado, VMware's general manager for its Networking and Security business, left for Andreessen Horowitz. Analysts commented that the cultures at Dell and EMC, and at EMC and VMware, are different, and said that they had heard that impending corporate cultural collisions and potentially radical product overlap pruning, would cause many EMC and VMware personnel to leave;[26] VMware CEO Pat Gelsinger, following rumours, categorically denied that he would leave.[27] [11]
+
+Acquisitions[edit]
+Date	Company	Notes
+October 2005	Asset Optimization Group	Specialized in capacity planning.[28]
+June 2006	Akimbi Systems	Specialized in lab management.[29]
+September 2007	Dunes Technologies	VMware acquired the Swiss company for an undisclosed sum.[30]
+July 2008	B-hive Networks	VMware acquired the Israeli start-up for an undisclosed sum. Following the acquisition VMware opened an R&D center in Israel, based initially on B-Hive’s facilities and team in Israel.[31]
+October 2008	Trango Virtual Processors	Was a Grenoble-based mobile hypervisor developer.[32]
+November 26, 2008	Tungsten Graphics	Core expertise in 3D graphics driver development.[33]
+August 10, 2009	SpringSource	Performed enterprise and web application development and management.[34] The acquisition allowed use of the term platform as a service (PaaS). The acquisition expanded VMware's education services to include SpringSource University and its authorized training partners such as Spring People in India.[35] The SpringSource assets became part of the Pivotal joint venture in April 2013.
+January 12, 2010	Zimbra (software)	Designed for open-source collaboration, it was bought from Yahoo and (later sold in July 2013 to Telligent Systems).[citation needed]
+May 6, 2010	GemStone	Incorporated into VMware's SpringSource division.[citation needed]
+April 26, 2011	SlideRocket	A startup which developed a SaaS application for building business presentations that are stored online. Through a Web-based interface, users can handle all parts of the process, from designing slides and compiling content, to reviewing documents and publishing and delivering them. VMware subsequently sold SlideRocket to ClearSlide on March 5, 2013.[citation needed]
+August 2011	PacketMotion	User Activity Monitoring startup. Their PacketSentry product was planned to be incorporated into VMware vCloud Networking and Security[36] but then it was EOSL'd by the end of 2012.[37]
+May 22, 2012	Wanova	[38]
+July 2, 2012	DynamicOps	[39]
+July 23, 2012	Nicira	Software for network virtualization, which was later included in the VMware NSX product.[40][41] The deal was valued at over $1.2 billion.[42]
+February 11, 2013	Virsto	[43]
+October 15, 2013	Desktone	[44]
+January 22, 2014	AirWatch and Wandering WiFi	Acquired for US$1.54 billion.[45][46][47]
+March 6, 2014	ThirdSky	ITIL/ITSM Consulting.
+August 20, 2014	CloudVolumes (formerly SnapVolumes)	[48]
+October 29, 2014	Continuent	[49]
+Litigation[edit]
+In March 2015, the Software Freedom Conservancy announced it was funding litigation by Christoph Hellwig against VMware for violation of his copyrights in its ESXi product. The case will be heard in Hamburg, Germany.[50] The SFC claims VMware is using both the Linux kernel and Busybox without respecting the terms of the GPL copyright license, while VMware told journalists that it believed the case was without merit[51] and expressed disappointment that Conservancy had resorted to litigation.[52]
+
+Core product design[edit]
+VMware developed a range of products, most notable of which are their hypervisors. VMware became well known for their first type 2 hypervisor known as GSX. This product has since evolved into two hypervisor products lines: VMware's type 1 hypervisors running directly on hardware and their hosted type 2 hypervisors.
+
+VMware software provides a completely virtualized set of hardware to the guest operating system.[53] VMware software virtualizes the hardware for a video adapter, a network adapter, and hard disk adapters. The host provides pass-through drivers for guest USB, serial, and parallel devices. In this way, VMware virtual machines become highly portable between computers, because every host looks nearly identical to the guest. In practice, a system administrator can pause operations on a virtual machine guest, move or copy that guest to another physical computer, and there resume execution exactly at the point of suspension. Alternatively, for enterprise servers, a feature called vMotion allows the migration of operational guest virtual machines between similar but separate hardware hosts sharing the same storage (or, with vMotion Storage, separate storage can be used, too). Each of these transitions is completely transparent to any users on the virtual machine at the time it is being migrated.
+
+VMware Workstation, Server, and ESX take a more optimized path to running target operating systems on the host than that of emulators (such as Bochs) which simulate the function of each CPU instruction on the target machine one-by-one, or that of dynamic recompilation which compiles blocks of machine-instructions the first time they execute, and then uses the translated code directly when the code runs subsequently (Microsoft Virtual PC for Mac OS X takes this approach). VMware software does not emulate an instruction set for different hardware not physically present. This significantly boosts performance, but can cause problems when moving virtual machine guests between hardware hosts using different instruction sets (such as found in 64-bit Intel and AMD CPUs), or between hardware hosts with a differing number of CPUs. Software that is CPU agnostic can usually survive such a transition, unless it is agnostic by forking at startup, in which case, the software or the guest OS must be stopped before moving it, then restarted after the move.
+
+VMware's products predate the virtualization extensions to the x86 instruction set, and do not require virtualization-enabled processors. On newer processors, the hypervisor is now designed to take advantage of the extensions. However, unlike many other hypervisors, VMware still supports older processors. In such cases, it uses the CPU to run code directly whenever possible (as, for example, when running user-mode and virtual 8086 mode code on x86). When direct execution cannot operate, such as with kernel-level and real-mode code, VMware products use binary translation (BT) to re-write the code dynamically. The translated code gets stored in spare memory, typically at the end of the address space, which segmentation mechanisms can protect and make invisible. For these reasons, VMware operates dramatically faster than emulators, running at more than 80% of the speed that the virtual guest operating system would run directly on the same hardware. In one study VMware claims a slowdown over native ranging from 0–6 percent for the VMware ESX Server.[54]
+
+VMware's approach avoids some of the difficulties of virtualization on x86-based platforms. Virtual machines may deal with offending instructions by replacing them, or by simply running kernel code in user mode. Replacing instructions runs the risk that the code may fail to find the expected content if it reads itself; one cannot protect code against reading while allowing normal execution, and replacing in place becomes complicated. Running the code unmodified in user mode will also fail, as most instructions which just read the machine state do not cause an exception and will betray the real state of the program, and certain instructions silently change behavior in user mode. One must always rewrite, performing a simulation of the current program counter in the original location when necessary and (notably) remapping hardware code breakpoints.
+
+Although VMware virtual machines run in user mode, VMware Workstation itself requires the installation of various drivers in the host operating system, notably to dynamically switch the Global Descriptor Table (GDT) and the Interrupt Descriptor Table (IDT).
+
+The VMware product line can also run different operating systems on a dual-boot system simultaneously by booting one partition natively while using the other as a guest within VMware Workstation.
+
+Products[edit]
+Desktop software[edit]
+VMware Workstation, 1999, the first product launched by VMware. This software suite allows users to run multiple instances of x86 or x86-64 -compatible operating systems on a single physical PC. At Workstation Pro v12 as of 2016.
+VMware Fusion provides similar functionality for users of the Intel Mac platform, along with full compatibility with virtual machines created by other VMware products.
+VMware Player was freeware for non-commercial use, without requiring a licence for VMware Workstation or VMware Fusion, and available for commercial use with permission. It was similar to Workstation, with reduced functionality; version numbers were not the same, e.g., Player 7 coexisted with Workstation 11. After version 7.10, VMware Player as such was replaced by VMware Workstation Player version 12, without some of the features of full Workstation Pro.
+VMware Workstation versions 12.0.0, 12.0.1, and 12.1.0 were released at intervals of about two months in 2015.[55] In January 2016 the entire development team behind VMWare Workstation and Fusion was disbanded and all US developers were immediately fired.[8][9][10][12] The future of these products remained vague; the company said that development would continue. On April 24, 2016 maintenance release 12.1.1 was released. VMware announced the release on 8 September 2016 of Workstation 12.5 and Fusion 8.5 as a free upgrade supporting Windows 10 Anniversary edition and Windows Server 2016.[13]
+
+Server software[edit]
+VMware has produced two virtualization products for servers:
+
+VMware vSphere[56] (also called "ESXi"), an enterprise-level product, can deliver greater performance than the freeware VMware Server, due to lower system overhead. VMware ESXi, as a "bare-metal" product, runs directly on the server hardware, allowing virtual servers to also use hardware more or less directly. In addition, VMware ESXi integrates into VMware vCenter, which offers extra services
+VMware Server (formerly called "GSX Server"; obsolete as of 2011)[57] was[58] also provided free of charge for non-commercial use, like VMware Player, and can also set up virtual machines. As a "hosted" application, VMware Server runs within an existing Linux or Windows operating system.
+Cloud management software[edit]
+VMware vRealize Suite - a cloud management platform purpose-built for a hybrid cloud.
+VMware EVO SDDC - EVO SDDC provides an easy way to deploy and operate a private cloud on an integrated SDDC system
+VMware Go was a web-based service to guide users of any expertise level through the installation and configuration of VMware vSphere Hypervisor. It was end-of-lifed in early 2014.
+
+Public cloud[edit]
+VMware vCloud Air is a public cloud computing service.
+
+Virtual desktop infrastructure[edit]
+VMware Horizon View is a virtual desktop infrastructure (VDI) product.
+
+Application management[edit]
+The VMware Workspace Portal is a self-service app store for workspace management[59]
+
+Storage management[edit]
+VMware VSAN (Virtual Storage Area Network), version 6.2 was released in early 2016.[60]
+
+Backup software[edit]
+In April 2011, EMC transferred control of Mozy to VMware.[61]
+
+Mozy produced MozyHome and MozyPro.[62] MozyHome is the consumer version of the Mozy backup service. It is available to buy on a monthly subscription.[63] MozyPro is the business version of the Mozy backup service. MozyPro requires a separate license for each computer that is being backed up, as well as a server license for any server that is being backed up. Customers then pay per gigabyte of data they have in the data center.[64]
+
+Networking and security products[edit]
+vCloud Networking and Security was a software-defined networking and security product. By 2013 it was superseded by VMware NSX, VMware's network virtualization product marketed using the term software-defined data center (SDDC).[65][66] The technology included some acquired from the purchase of Nicira for $1.26 billion, announced in July 2012.[41][42][41] Nicira was founded in 2007 by Martin Casado, Nick McKeown and Scott Shenker. Nicira created their own proprietary versions of the OpenFlow, Open vSwitch, and OpenStack networking projects.[67]
+
+Other products[edit]
+Workspace ONE allows mobile users to access to apps and data.[68]
+
+See also[edit]
+Comparison of platform virtualization software
+Hardware virtualization
+Hypervisor
+VMware VMFS
+References[edit]
+Jump up ^ "Form 10-K, Annual Report for Fiscal Year ended December 31, 2014" (PDF). VMware.com.
+Jump up ^ "VMware leader in virtualization market".
+Jump up ^ Lohr, Steve (2009-08-31). "VMware market share more than 80%". The New York Times. Retrieved 2010-05-27.
+Jump up ^ "VMware, Hyper-V virtualization leave others in the dust".
+Jump up ^ "Understanding full virtualization, paravirtualization, and hardware assist" (PDF). 2007-10-15. Retrieved 2014-12-11.
+Jump up ^ "Investor FAQs". Retrieved 2014-12-11.
+Jump up ^ "ESX Server Architecture". Vmware.com. Archived from the original on January 31, 2009. Retrieved 2009-10-22.
+^ Jump up to: a b "VMware Reports Fourth Quarter and Full Year 2015 Results". Press Release. VMware. January 26, 2016. Retrieved August 25, 2016.
+^ Jump up to: a b Simon Sharwood (January 27, 2016). "VMware axes Fusion and Workstation US devs". The Register. Retrieved August 25, 2016.
+^ Jump up to: a b Simon Sharwood (January 27, 2016). "VMware says vSphere in decline, new multi-cloud plan will ensure growth: Virtzilla beats the street, fires 800, crimps vCloud Air, doubles down on new products". The Register. Retrieved August 25, 2016.
+^ Jump up to: a b Ron Miller (January 26, 2016). "VMware Confirms Layoffs In Earnings Statement As It Prepares For Dell Acquisition". TechCrunch. Retrieved August 25, 2016.
+^ Jump up to: a b Christian Hammond (January 26, 2016). "A Tribute to VMware Workstation, Fusion, and Hosted UI". ChipLog. Retrieved August 25, 2016.
+^ Jump up to: a b Jon Brodkin (30 August 2016). "VMware says "we're not dead," updates Fusion and Workstation for free". Arstechnica.co.uk. Retrieved 8 September 2016.
+Jump up ^ Lashinksky, Adam (2007-10-02). "50 Most Powerful Women in Business — Full speed ahead". CNN. In 1988 she picked up a second master's, in computer science, at the University of California at Berkeley, where she met Rosenblum
+Jump up ^ "Edouard Bugnion lives in the virtual world".
+Jump up ^ "VMware Milestones".
+Jump up ^ "VMware company history".
+Jump up ^ "VMware ready to capitalize on hot server market". June 30, 2015.
+Jump up ^ "EMC Completes Acquisition of VMware". Vmware.com. Retrieved 2013-06-27.
+Jump up ^ Mullins, Robert (2007-08-14). "Update: VMware the bright spot on a gray Wall Street day". IDG News Service. Retrieved 2007-08-15.
+Jump up ^ Savitz, Eric (2008-07-08). "VMware ousts CEO Diane Greene; cuts '08 guidance". Barron's. Retrieved 2009-07-01.
+Jump up ^ "Virtual Networking Features of the VMware vNetwork Distributed Switch and Cisco Nexus 1000V Series Switches" (PDF).
+Jump up ^ Cloud Foundry Frequently Asked Questions
+Jump up ^ "EMC, VMW Analyst Day: Street Awaits 'Pivotal,' Financial Update". Retrieved 2014-12-11.
+Jump up ^ "Using VMware vCloud Connector". Retrieved 2014-12-11.
+Jump up ^ Chris Mellor (11 April 2016). "Cracks show in VMware exec ranks". The Register. Retrieved 11 May 2016.
+Jump up ^ Simon Sharwood (13 May 2016). "VMware CEO Pat Gelsinger quashes departure rumours". Channelregister.co.uk. Retrieved 2 June 2016.
+Jump up ^ "A look at VMware's past acquisitions".
+Jump up ^ "VMware acquires virtualization company Akimbi".
+Jump up ^ "VMware Acquires Dunes Technologies". VMware. Sep 11, 2007.
+Jump up ^ Vidra, Eze (May 28, 2008). "VMWare Snatches B-Hive, Opens R&D Center in Israel". VCcafe.
+Jump up ^ Ward, Keith. "The Next Frontier: Mobile Phone Hypervisors". Virtualizationreview.com. Retrieved 2013-06-27.
+Jump up ^ Marshall, David (2008-12-16), VMware's year end acquisition of Tungsten Graphics, InfoWorld
+Jump up ^ "VMware to Acquire SpringSource".
+Jump up ^ springpeople.com
+Jump up ^ "VMware and PacketMotion: Data Access Monitoring, Network Security & Compliance | United States". www.vmware.com. Retrieved 2016-01-05.
+Jump up ^ "VMware Support for PacketMotion Products | United States". www.vmware.com. Retrieved 2016-01-05.
+Jump up ^ "VMware To Acquire Wanova, Intelligent Desktop Solutions Provider". VMware. 2012-05-22. Retrieved 2012-06-01.
+Jump up ^ "VMware to Acquire DynamicOps, Inc". VMware. 2012-07-02. Retrieved 2013-06-27.
+Jump up ^ "VMware to Acquire Nicira". News release. VMware. July 23, 2012. Retrieved July 11, 2013.
+^ Jump up to: a b c Alex Williams (July 23, 2012). "VMware Buys Nicira For $1.26 Billion And Gives More Clues About Cloud Strategy". TechCrunch. Retrieved August 25, 2016.
+^ Jump up to: a b Julie Bort (October 26, 2014), "The Inside Story Of A $1 Billion Acquisition That Caused Cisco To Divorce Its Closest Partner, EMC", Business Insider, retrieved August 25, 2016
+Jump up ^ "VMware to Acquire Virsto". News release. VMware. February 11, 2013. Retrieved 2013-07-11.
+Jump up ^ "VMware Acquires Desktone". News release. VMware. October 15, 2013. Retrieved 2013-10-15.
+Jump up ^ "VMware's AirWatch Acquisition To Enhance Mobility In End-User Computing". Forbes. Forbes.com LLC. Retrieved 6 March 2014.
+Jump up ^ "VMware to Acquire AirWatch". Retrieved 2014-12-11.
+Jump up ^ "iPhone APIs Ultimately Led to VMware's AirWatch Acquisition". The Wall Street Journal. Dow Jones & Company, Inc. Retrieved 2014-03-06.
+Jump up ^ ZDNet. "VMware buys CloudVolumes for real-time desktop app delivery". zdnet.com. Retrieved 21 August 2014.
+Jump up ^ VMware vCloud Blog. "VMware Acquires Continuent". vmware.com. Retrieved 12 December 2014.
+Jump up ^ "Conservancy Announces Funding for GPL Compliance Lawsuit". Software Freedom Conservancy. Retrieved 6 March 2015.
+Jump up ^ Phipps, Simon (5 March 2015). "VMware heads to court over GPL violations". InfoWorld. Retrieved 11 March 2015.
+Jump up ^ "VMware Update to Mr. Hellwig's Legal Proceedings". VMware. Retrieved 11 March 2015.
+Jump up ^ "How does VMWare Work?". Extremetech.com. 2009-06-22. Retrieved 2009-07-01.
+Jump up ^ "A Performance Comparison of Hypervisors" (PDF).
+Jump up ^ "Download VMware Workstation Player". VMware. Retrieved 11 May 2016. Download site for VMware Player 7.x and Workstation Player 12.x
+Jump up ^ VMware ESXi Bare-Metal Hypervisor for Multiple Virtual Machines - United States. VMware.com. Retrieved on 2013-10-16.
+Jump up ^ "VMware Products Life Cycle Policies". VMware.
+Jump up ^ "VMware Server, Free Virtualization Download for Virtual Server Consolidation". Vmware.com. 2011-06-30. Retrieved 2013-06-27.
+Jump up ^ "Workspace Portal". VMware. 2015-03-12. Retrieved 2015-03-12.
+Jump up ^ Forrest, Conner (February 10, 2016). "VMware VSAN 6.2: The 3 things you need to know". TechRepublic. Retrieved 2016-02-10.
+Jump up ^ Mellor, Chris (April 5, 2011). "VMware 'buys' Mozy for its cloudy goodness". The Register. Retrieved October 3, 2013.
+Jump up ^ "MozyHome / MozyPro". CrunchBase. January 1, 2008. Retrieved 2010-08-30.
+Jump up ^ Kodesh, Harel (February 1, 2011). "New MozyHome Plans". Retrieved 2011-02-02.
+Jump up ^ "MozyPro Launches". TechCrunch. April 3, 2007. Retrieved 2010-08-31.
+Jump up ^ Morreale, Patricia A.; Anderson, James M. (2014-12-03). Software Defined Networking: Design and Deployment. CRC Press (published 2014). p. 75. ISBN 9781482238631. Retrieved 2014-11-14. VMware NSX creates a virtual network overlay that is loosely coupled to the physical network underneath.
+Jump up ^ Timothy Prickett Morgan (March 14, 2013). "VMware NSX mashes up Nicira and homegrown network virt: Virtualizing entire data centers, including admins for systems and networks". The Register. Retrieved August 25, 2016.
+Jump up ^ Matthew Palmer (July 13, 2012). "vSwitch the New Battleground for Network Virtualization". Sdncentral.com. Retrieved August 25, 2016.
+Jump up ^ Hernandez, Pedro (2016-06-13). "VMware Workspace ONE Anchors Mobile Management on Identity". Mobile/Wireless. Datamation. QuinStreet Inc. Retrieved 2016-06-23. [...] Workspace ONE [...] integrates elements from AirWatch, VMware Identity Manager and Horizon Air to create secure, user-centric app experiences for both mobile workers and IT administrators based on user identities and policies governing their access to corporate apps and data.
+External links[edit]
+	Wikimedia Commons has media related to VMware.
+Official website
+[show] v t e
+EMC Corporation
+[show] v t e
+Major information technology companies
+Categories: 1998 establishments in CaliforniaCloud computing providersCompanies based in Palo Alto, CaliforniaCompanies established in 1998Companies listed on the New York Stock ExchangeEMC CorporationSoftware companies based in the San Francisco Bay AreaVMware
+Navigation menu
+Not logged inTalkContributionsCreate accountLog inArticleTalkReadEditView historySearch
+
+Search Wikipedia
+Go
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+Wikipedia store
+Interaction
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact page
+Tools
+What links here
+Related changes
+Upload file
+Special pages
+Permanent link
+Page information
+Wikidata item
+Cite this page
+Print/export
+Create a book
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+Languages
+العربية
+বাংলা
+Català
+Čeština
+Deutsch
+Ελληνικά
+Español
+فارسی
+Français
+한국어
+Bahasa Indonesia
+Italiano
+עברית
+Қазақша
+Limburgs
+Magyar
+മലയാളം
+Nederlands
+日本語
+Norsk bokmål
+Occitan
+Polski
+Português
+Română
+Русский
+Simple English
+Српски / srpski
+Suomi
+Svenska
+Türkçe
+Українська
+Tiếng Việt
+中文
+Edit links
+This page was last modified on 16 November 2016, at 11:58.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaDevelopersCookie statementMobile viewWikimedia Foundation Powered by MediaWiki
+
+VMware
+From Wikipedia, the free encyclopedia
+Ambox current red.svg
+This article needs to be updated. Please update this article to reflect recent events or newly available information. (March 2016)
+VMware Inc.
+Vmware.svg
+VMware HQ campus 3401 Hillview entrance.JPG
+Campus headquarters, Palo Alto, California
+Type
+Public
+Traded as	NYSE: VMW
+Industry	Computer software
+Founded	October 26, 1998; 18 years ago
+Palo Alto, California, U.S.
+Founder	Diane Greene
+Mendel Rosenblum
+Scott Devine
+Ellen Wang
+Edouard Bugnion
+Headquarters	Palo Alto, California, U.S.
+Products	vSphere, ESX, ESXi, Workstation, Fusion, Player, Server, VMware Service Manager, ThinApp, View, ACE, Lab Manager, Infrastructure, Converter, Site Recovery Manager, Stage Manager, vRealize Automation, vRealize Operations Management Suite, VMware NSX, vRealize Business
+Revenue	Increase US$6.035 billion (2014)
+Operating income
+Decrease US$1.027 billion (2014)
+Net income
+Decrease US$0.86 billion (2014)
+Total assets	Decrease US$15.216 billion (2014)
+Total equity	Increase US$7.586 billion (2014)
+Number of employees
+18,000[1] (December 31, 2014)
+Parent	Dell Technologies
+Website	www.vmware.com
+VMware, Inc. is a subsidiary of Dell Technologies, that provides cloud and virtualization software and services,[2][3][4] and claims to be the first to successfully virtualize the x86 architecture commercially.[5] Founded in 1998, VMware is based in Palo Alto, California. In 2004, it was acquired by and became a subsidiary of EMC Corporation, then on August 14, 2007, EMC sold 15% of the company in a New York Stock Exchange IPO. The company trades under the symbol VMW.[6]
+
+VMware's desktop software runs on Microsoft Windows, Linux, and Mac OS X, while its enterprise software hypervisors for servers, VMware ESX and VMware ESXi, are bare-metal hypervisors that run directly on server hardware without requiring an additional underlying operating system.[7]
+
+In anticipation of Dell's acquisition of parent company EMC, VMWare announced a restructuring in January 2016 to reduce about 800 positions, and some executives resigned.[8][9][10][11][12] There were doubts about the company's future and its product lines, particularly for the desktop. In August 2016, announcing the release of new desktop products, the company said "we’re very much alive and well".[13]
+
+Contents  [hide] 
+1	History
+1.1	Acquisitions
+1.2	Litigation
+2	Core product design
+3	Products
+3.1	Desktop software
+3.2	Server software
+3.3	Cloud management software
+3.4	Public cloud
+3.5	Virtual desktop infrastructure
+3.6	Application management
+3.7	Storage management
+3.8	Backup software
+3.9	Networking and security products
+3.10	Other products
+4	See also
+5	References
+6	External links
+History[edit]
+In 1998, VMware was founded by Diane Greene, Mendel Rosenblum, Scott Devine, Ellen Wang and Edouard Bugnion. Greene and Rosenblum, who are married, first met while at the University of California, Berkeley.[14] Edouard Bugnion remained the chief architect and CTO of VMware until 2005,[15] and went on to found Nuova Systems (now part of Cisco). For the first year, VMware operated in stealth mode, with roughly 20 employees by the end of 1998. The company was launched officially early in the second year, in February 1999, at the DEMO Conference organized by Chris Shipley.[16] The first product, VMware Workstation, was delivered in May 1999,[17] and the company entered the server market in 2001 with VMware GSX Server (hosted) and VMware ESX Server (hostless).[18]
+
+In 2003, VMware launched VMware Virtual Center, the VMotion, and Virtual SMP technology. 64-bit support appeared in 2004. The same year, the company was acquired by EMC Corporation for US$625 million.[19]
+
+In August 2007, EMC released 15% of the company's shares in VMware in an initial public offering on the New York Stock Exchange. The stock debuted at US$29 per share and closed the day at US$51.[20]
+
+On July 8, 2008, VMware co-founder, president and CEO Diane Greene, was unexpectedly fired by the VMware Board of Directors and replaced by Paul Maritz, a retired 14-year Microsoft veteran who was heading EMC's cloud computing business unit.[21] In the same news release VMware stated that 2008 revenue growth will be "modestly below the previous guidance of 50% growth over 2007". As a result, market price of VMware dropped nearly 25%. Then, on September 10, 2008, Rosenblum, the company's chief scientist, resigned.
+
+On September 16, 2008, VMware announced a collaboration with Cisco Systems. One result was the Cisco Nexus 1000V, a distributed virtual software switch, an integrated option in the VMware infrastructure.[22]
+
+On April 12, 2011, VMware released an open source platform-as-a-service system called Cloud Foundry, as well as a hosted version of the service. This supported application deployment for Java, Ruby on Rails, Sinatra, Node.js, and Scala, as well as database support for MySQL, MongoDB, Redis, Postgres, RabbitMQ.[23]
+
+In March 2013, VMware gave details of a spin-off of Pivotal. All of VMware's application- and developer-oriented products, including Spring, tc Server, Cloud Foundry, RabbitMQ, GemFire, and SQLFire were transferred to this organization.[24] It also announced that it was introducing its own IaaS service, vCloud Hybrid Service, in a shift of its strategy of selling software to cloud service providers.[citation needed]
+
+In April 2013, Pivotal was formally created with GE as a minority shareholder.[citation needed]
+
+In May 2013, VMware launched vCloud Hybrid Service at its new Palo Alto headquarters (vCloud Hybrid Service now known as vCloud Air),[25] announcing an early access program in a Las Vegas data center. The service is designed to function as an extension of its customer's existing vSphere installations, with full compatibility with existing virtual machines virtualized with VMware software and tightly integrated networking. The service is based on vCloud Director 5.1/vSphere 5.1.[citation needed]
+
+In September 2013 at VMworld San Francisco, VMware announced general availability of vCloud Hybrid Service and expansion to Sterling, Virginia, Santa Clara, California, Dallas, Texas, and a service beta in the UK. It also pre-announced a disaster recovery and desktop-as-a-service offering based on Desktone, which it went on to acquire in October 2013.[citation needed]
+
+Following the news in early 2016 of the impending acquisition by Dell, and despite Dell's assurance that VMware would remain independent, VMware president and COO Carl Eschenbach left VMware to join Sequoia Capital, and Martin Casado, VMware's general manager for its Networking and Security business, left for Andreessen Horowitz. Analysts commented that the cultures at Dell and EMC, and at EMC and VMware, are different, and said that they had heard that impending corporate cultural collisions and potentially radical product overlap pruning, would cause many EMC and VMware personnel to leave;[26] VMware CEO Pat Gelsinger, following rumours, categorically denied that he would leave.[27] [11]
+
+Acquisitions[edit]
+Date	Company	Notes
+October 2005	Asset Optimization Group	Specialized in capacity planning.[28]
+June 2006	Akimbi Systems	Specialized in lab management.[29]
+September 2007	Dunes Technologies	VMware acquired the Swiss company for an undisclosed sum.[30]
+July 2008	B-hive Networks	VMware acquired the Israeli start-up for an undisclosed sum. Following the acquisition VMware opened an R&D center in Israel, based initially on B-Hive’s facilities and team in Israel.[31]
+October 2008	Trango Virtual Processors	Was a Grenoble-based mobile hypervisor developer.[32]
+November 26, 2008	Tungsten Graphics	Core expertise in 3D graphics driver development.[33]
+August 10, 2009	SpringSource	Performed enterprise and web application development and management.[34] The acquisition allowed use of the term platform as a service (PaaS). The acquisition expanded VMware's education services to include SpringSource University and its authorized training partners such as Spring People in India.[35] The SpringSource assets became part of the Pivotal joint venture in April 2013.
+January 12, 2010	Zimbra (software)	Designed for open-source collaboration, it was bought from Yahoo and (later sold in July 2013 to Telligent Systems).[citation needed]
+May 6, 2010	GemStone	Incorporated into VMware's SpringSource division.[citation needed]
+April 26, 2011	SlideRocket	A startup which developed a SaaS application for building business presentations that are stored online. Through a Web-based interface, users can handle all parts of the process, from designing slides and compiling content, to reviewing documents and publishing and delivering them. VMware subsequently sold SlideRocket to ClearSlide on March 5, 2013.[citation needed]
+August 2011	PacketMotion	User Activity Monitoring startup. Their PacketSentry product was planned to be incorporated into VMware vCloud Networking and Security[36] but then it was EOSL'd by the end of 2012.[37]
+May 22, 2012	Wanova	[38]
+July 2, 2012	DynamicOps	[39]
+July 23, 2012	Nicira	Software for network virtualization, which was later included in the VMware NSX product.[40][41] The deal was valued at over $1.2 billion.[42]
+February 11, 2013	Virsto	[43]
+October 15, 2013	Desktone	[44]
+January 22, 2014	AirWatch and Wandering WiFi	Acquired for US$1.54 billion.[45][46][47]
+March 6, 2014	ThirdSky	ITIL/ITSM Consulting.
+August 20, 2014	CloudVolumes (formerly SnapVolumes)	[48]
+October 29, 2014	Continuent	[49]
+Litigation[edit]
+In March 2015, the Software Freedom Conservancy announced it was funding litigation by Christoph Hellwig against VMware for violation of his copyrights in its ESXi product. The case will be heard in Hamburg, Germany.[50] The SFC claims VMware is using both the Linux kernel and Busybox without respecting the terms of the GPL copyright license, while VMware told journalists that it believed the case was without merit[51] and expressed disappointment that Conservancy had resorted to litigation.[52]
+
+Core product design[edit]
+VMware developed a range of products, most notable of which are their hypervisors. VMware became well known for their first type 2 hypervisor known as GSX. This product has since evolved into two hypervisor products lines: VMware's type 1 hypervisors running directly on hardware and their hosted type 2 hypervisors.
+
+VMware software provides a completely virtualized set of hardware to the guest operating system.[53] VMware software virtualizes the hardware for a video adapter, a network adapter, and hard disk adapters. The host provides pass-through drivers for guest USB, serial, and parallel devices. In this way, VMware virtual machines become highly portable between computers, because every host looks nearly identical to the guest. In practice, a system administrator can pause operations on a virtual machine guest, move or copy that guest to another physical computer, and there resume execution exactly at the point of suspension. Alternatively, for enterprise servers, a feature called vMotion allows the migration of operational guest virtual machines between similar but separate hardware hosts sharing the same storage (or, with vMotion Storage, separate storage can be used, too). Each of these transitions is completely transparent to any users on the virtual machine at the time it is being migrated.
+
+VMware Workstation, Server, and ESX take a more optimized path to running target operating systems on the host than that of emulators (such as Bochs) which simulate the function of each CPU instruction on the target machine one-by-one, or that of dynamic recompilation which compiles blocks of machine-instructions the first time they execute, and then uses the translated code directly when the code runs subsequently (Microsoft Virtual PC for Mac OS X takes this approach). VMware software does not emulate an instruction set for different hardware not physically present. This significantly boosts performance, but can cause problems when moving virtual machine guests between hardware hosts using different instruction sets (such as found in 64-bit Intel and AMD CPUs), or between hardware hosts with a differing number of CPUs. Software that is CPU agnostic can usually survive such a transition, unless it is agnostic by forking at startup, in which case, the software or the guest OS must be stopped before moving it, then restarted after the move.
+
+VMware's products predate the virtualization extensions to the x86 instruction set, and do not require virtualization-enabled processors. On newer processors, the hypervisor is now designed to take advantage of the extensions. However, unlike many other hypervisors, VMware still supports older processors. In such cases, it uses the CPU to run code directly whenever possible (as, for example, when running user-mode and virtual 8086 mode code on x86). When direct execution cannot operate, such as with kernel-level and real-mode code, VMware products use binary translation (BT) to re-write the code dynamically. The translated code gets stored in spare memory, typically at the end of the address space, which segmentation mechanisms can protect and make invisible. For these reasons, VMware operates dramatically faster than emulators, running at more than 80% of the speed that the virtual guest operating system would run directly on the same hardware. In one study VMware claims a slowdown over native ranging from 0–6 percent for the VMware ESX Server.[54]
+
+VMware's approach avoids some of the difficulties of virtualization on x86-based platforms. Virtual machines may deal with offending instructions by replacing them, or by simply running kernel code in user mode. Replacing instructions runs the risk that the code may fail to find the expected content if it reads itself; one cannot protect code against reading while allowing normal execution, and replacing in place becomes complicated. Running the code unmodified in user mode will also fail, as most instructions which just read the machine state do not cause an exception and will betray the real state of the program, and certain instructions silently change behavior in user mode. One must always rewrite, performing a simulation of the current program counter in the original location when necessary and (notably) remapping hardware code breakpoints.
+
+Although VMware virtual machines run in user mode, VMware Workstation itself requires the installation of various drivers in the host operating system, notably to dynamically switch the Global Descriptor Table (GDT) and the Interrupt Descriptor Table (IDT).
+
+The VMware product line can also run different operating systems on a dual-boot system simultaneously by booting one partition natively while using the other as a guest within VMware Workstation.
+
+Products[edit]
+Desktop software[edit]
+VMware Workstation, 1999, the first product launched by VMware. This software suite allows users to run multiple instances of x86 or x86-64 -compatible operating systems on a single physical PC. At Workstation Pro v12 as of 2016.
+VMware Fusion provides similar functionality for users of the Intel Mac platform, along with full compatibility with virtual machines created by other VMware products.
+VMware Player was freeware for non-commercial use, without requiring a licence for VMware Workstation or VMware Fusion, and available for commercial use with permission. It was similar to Workstation, with reduced functionality; version numbers were not the same, e.g., Player 7 coexisted with Workstation 11. After version 7.10, VMware Player as such was replaced by VMware Workstation Player version 12, without some of the features of full Workstation Pro.
+VMware Workstation versions 12.0.0, 12.0.1, and 12.1.0 were released at intervals of about two months in 2015.[55] In January 2016 the entire development team behind VMWare Workstation and Fusion was disbanded and all US developers were immediately fired.[8][9][10][12] The future of these products remained vague; the company said that development would continue. On April 24, 2016 maintenance release 12.1.1 was released. VMware announced the release on 8 September 2016 of Workstation 12.5 and Fusion 8.5 as a free upgrade supporting Windows 10 Anniversary edition and Windows Server 2016.[13]
+
+Server software[edit]
+VMware has produced two virtualization products for servers:
+
+VMware vSphere[56] (also called "ESXi"), an enterprise-level product, can deliver greater performance than the freeware VMware Server, due to lower system overhead. VMware ESXi, as a "bare-metal" product, runs directly on the server hardware, allowing virtual servers to also use hardware more or less directly. In addition, VMware ESXi integrates into VMware vCenter, which offers extra services
+VMware Server (formerly called "GSX Server"; obsolete as of 2011)[57] was[58] also provided free of charge for non-commercial use, like VMware Player, and can also set up virtual machines. As a "hosted" application, VMware Server runs within an existing Linux or Windows operating system.
+Cloud management software[edit]
+VMware vRealize Suite - a cloud management platform purpose-built for a hybrid cloud.
+VMware EVO SDDC - EVO SDDC provides an easy way to deploy and operate a private cloud on an integrated SDDC system
+VMware Go was a web-based service to guide users of any expertise level through the installation and configuration of VMware vSphere Hypervisor. It was end-of-lifed in early 2014.
+
+Public cloud[edit]
+VMware vCloud Air is a public cloud computing service.
+
+Virtual desktop infrastructure[edit]
+VMware Horizon View is a virtual desktop infrastructure (VDI) product.
+
+Application management[edit]
+The VMware Workspace Portal is a self-service app store for workspace management[59]
+
+Storage management[edit]
+VMware VSAN (Virtual Storage Area Network), version 6.2 was released in early 2016.[60]
+
+Backup software[edit]
+In April 2011, EMC transferred control of Mozy to VMware.[61]
+
+Mozy produced MozyHome and MozyPro.[62] MozyHome is the consumer version of the Mozy backup service. It is available to buy on a monthly subscription.[63] MozyPro is the business version of the Mozy backup service. MozyPro requires a separate license for each computer that is being backed up, as well as a server license for any server that is being backed up. Customers then pay per gigabyte of data they have in the data center.[64]
+
+Networking and security products[edit]
+vCloud Networking and Security was a software-defined networking and security product. By 2013 it was superseded by VMware NSX, VMware's network virtualization product marketed using the term software-defined data center (SDDC).[65][66] The technology included some acquired from the purchase of Nicira for $1.26 billion, announced in July 2012.[41][42][41] Nicira was founded in 2007 by Martin Casado, Nick McKeown and Scott Shenker. Nicira created their own proprietary versions of the OpenFlow, Open vSwitch, and OpenStack networking projects.[67]
+
+Other products[edit]
+Workspace ONE allows mobile users to access to apps and data.[68]
+
+See also[edit]
+Comparison of platform virtualization software
+Hardware virtualization
+Hypervisor
+VMware VMFS
+References[edit]
+Jump up ^ "Form 10-K, Annual Report for Fiscal Year ended December 31, 2014" (PDF). VMware.com.
+Jump up ^ "VMware leader in virtualization market".
+Jump up ^ Lohr, Steve (2009-08-31). "VMware market share more than 80%". The New York Times. Retrieved 2010-05-27.
+Jump up ^ "VMware, Hyper-V virtualization leave others in the dust".
+Jump up ^ "Understanding full virtualization, paravirtualization, and hardware assist" (PDF). 2007-10-15. Retrieved 2014-12-11.
+Jump up ^ "Investor FAQs". Retrieved 2014-12-11.
+Jump up ^ "ESX Server Architecture". Vmware.com. Archived from the original on January 31, 2009. Retrieved 2009-10-22.
+^ Jump up to: a b "VMware Reports Fourth Quarter and Full Year 2015 Results". Press Release. VMware. January 26, 2016. Retrieved August 25, 2016.
+^ Jump up to: a b Simon Sharwood (January 27, 2016). "VMware axes Fusion and Workstation US devs". The Register. Retrieved August 25, 2016.
+^ Jump up to: a b Simon Sharwood (January 27, 2016). "VMware says vSphere in decline, new multi-cloud plan will ensure growth: Virtzilla beats the street, fires 800, crimps vCloud Air, doubles down on new products". The Register. Retrieved August 25, 2016.
+^ Jump up to: a b Ron Miller (January 26, 2016). "VMware Confirms Layoffs In Earnings Statement As It Prepares For Dell Acquisition". TechCrunch. Retrieved August 25, 2016.
+^ Jump up to: a b Christian Hammond (January 26, 2016). "A Tribute to VMware Workstation, Fusion, and Hosted UI". ChipLog. Retrieved August 25, 2016.
+^ Jump up to: a b Jon Brodkin (30 August 2016). "VMware says "we're not dead," updates Fusion and Workstation for free". Arstechnica.co.uk. Retrieved 8 September 2016.
+Jump up ^ Lashinksky, Adam (2007-10-02). "50 Most Powerful Women in Business — Full speed ahead". CNN. In 1988 she picked up a second master's, in computer science, at the University of California at Berkeley, where she met Rosenblum
+Jump up ^ "Edouard Bugnion lives in the virtual world".
+Jump up ^ "VMware Milestones".
+Jump up ^ "VMware company history".
+Jump up ^ "VMware ready to capitalize on hot server market". June 30, 2015.
+Jump up ^ "EMC Completes Acquisition of VMware". Vmware.com. Retrieved 2013-06-27.
+Jump up ^ Mullins, Robert (2007-08-14). "Update: VMware the bright spot on a gray Wall Street day". IDG News Service. Retrieved 2007-08-15.
+Jump up ^ Savitz, Eric (2008-07-08). "VMware ousts CEO Diane Greene; cuts '08 guidance". Barron's. Retrieved 2009-07-01.
+Jump up ^ "Virtual Networking Features of the VMware vNetwork Distributed Switch and Cisco Nexus 1000V Series Switches" (PDF).
+Jump up ^ Cloud Foundry Frequently Asked Questions
+Jump up ^ "EMC, VMW Analyst Day: Street Awaits 'Pivotal,' Financial Update". Retrieved 2014-12-11.
+Jump up ^ "Using VMware vCloud Connector". Retrieved 2014-12-11.
+Jump up ^ Chris Mellor (11 April 2016). "Cracks show in VMware exec ranks". The Register. Retrieved 11 May 2016.
+Jump up ^ Simon Sharwood (13 May 2016). "VMware CEO Pat Gelsinger quashes departure rumours". Channelregister.co.uk. Retrieved 2 June 2016.
+Jump up ^ "A look at VMware's past acquisitions".
+Jump up ^ "VMware acquires virtualization company Akimbi".
+Jump up ^ "VMware Acquires Dunes Technologies". VMware. Sep 11, 2007.
+Jump up ^ Vidra, Eze (May 28, 2008). "VMWare Snatches B-Hive, Opens R&D Center in Israel". VCcafe.
+Jump up ^ Ward, Keith. "The Next Frontier: Mobile Phone Hypervisors". Virtualizationreview.com. Retrieved 2013-06-27.
+Jump up ^ Marshall, David (2008-12-16), VMware's year end acquisition of Tungsten Graphics, InfoWorld
+Jump up ^ "VMware to Acquire SpringSource".
+Jump up ^ springpeople.com
+Jump up ^ "VMware and PacketMotion: Data Access Monitoring, Network Security & Compliance | United States". www.vmware.com. Retrieved 2016-01-05.
+Jump up ^ "VMware Support for PacketMotion Products | United States". www.vmware.com. Retrieved 2016-01-05.
+Jump up ^ "VMware To Acquire Wanova, Intelligent Desktop Solutions Provider". VMware. 2012-05-22. Retrieved 2012-06-01.
+Jump up ^ "VMware to Acquire DynamicOps, Inc". VMware. 2012-07-02. Retrieved 2013-06-27.
+Jump up ^ "VMware to Acquire Nicira". News release. VMware. July 23, 2012. Retrieved July 11, 2013.
+^ Jump up to: a b c Alex Williams (July 23, 2012). "VMware Buys Nicira For $1.26 Billion And Gives More Clues About Cloud Strategy". TechCrunch. Retrieved August 25, 2016.
+^ Jump up to: a b Julie Bort (October 26, 2014), "The Inside Story Of A $1 Billion Acquisition That Caused Cisco To Divorce Its Closest Partner, EMC", Business Insider, retrieved August 25, 2016
+Jump up ^ "VMware to Acquire Virsto". News release. VMware. February 11, 2013. Retrieved 2013-07-11.
+Jump up ^ "VMware Acquires Desktone". News release. VMware. October 15, 2013. Retrieved 2013-10-15.
+Jump up ^ "VMware's AirWatch Acquisition To Enhance Mobility In End-User Computing". Forbes. Forbes.com LLC. Retrieved 6 March 2014.
+Jump up ^ "VMware to Acquire AirWatch". Retrieved 2014-12-11.
+Jump up ^ "iPhone APIs Ultimately Led to VMware's AirWatch Acquisition". The Wall Street Journal. Dow Jones & Company, Inc. Retrieved 2014-03-06.
+Jump up ^ ZDNet. "VMware buys CloudVolumes for real-time desktop app delivery". zdnet.com. Retrieved 21 August 2014.
+Jump up ^ VMware vCloud Blog. "VMware Acquires Continuent". vmware.com. Retrieved 12 December 2014.
+Jump up ^ "Conservancy Announces Funding for GPL Compliance Lawsuit". Software Freedom Conservancy. Retrieved 6 March 2015.
+Jump up ^ Phipps, Simon (5 March 2015). "VMware heads to court over GPL violations". InfoWorld. Retrieved 11 March 2015.
+Jump up ^ "VMware Update to Mr. Hellwig's Legal Proceedings". VMware. Retrieved 11 March 2015.
+Jump up ^ "How does VMWare Work?". Extremetech.com. 2009-06-22. Retrieved 2009-07-01.
+Jump up ^ "A Performance Comparison of Hypervisors" (PDF).
+Jump up ^ "Download VMware Workstation Player". VMware. Retrieved 11 May 2016. Download site for VMware Player 7.x and Workstation Player 12.x
+Jump up ^ VMware ESXi Bare-Metal Hypervisor for Multiple Virtual Machines - United States. VMware.com. Retrieved on 2013-10-16.
+Jump up ^ "VMware Products Life Cycle Policies". VMware.
+Jump up ^ "VMware Server, Free Virtualization Download for Virtual Server Consolidation". Vmware.com. 2011-06-30. Retrieved 2013-06-27.
+Jump up ^ "Workspace Portal". VMware. 2015-03-12. Retrieved 2015-03-12.
+Jump up ^ Forrest, Conner (February 10, 2016). "VMware VSAN 6.2: The 3 things you need to know". TechRepublic. Retrieved 2016-02-10.
+Jump up ^ Mellor, Chris (April 5, 2011). "VMware 'buys' Mozy for its cloudy goodness". The Register. Retrieved October 3, 2013.
+Jump up ^ "MozyHome / MozyPro". CrunchBase. January 1, 2008. Retrieved 2010-08-30.
+Jump up ^ Kodesh, Harel (February 1, 2011). "New MozyHome Plans". Retrieved 2011-02-02.
+Jump up ^ "MozyPro Launches". TechCrunch. April 3, 2007. Retrieved 2010-08-31.
+Jump up ^ Morreale, Patricia A.; Anderson, James M. (2014-12-03). Software Defined Networking: Design and Deployment. CRC Press (published 2014). p. 75. ISBN 9781482238631. Retrieved 2014-11-14. VMware NSX creates a virtual network overlay that is loosely coupled to the physical network underneath.
+Jump up ^ Timothy Prickett Morgan (March 14, 2013). "VMware NSX mashes up Nicira and homegrown network virt: Virtualizing entire data centers, including admins for systems and networks". The Register. Retrieved August 25, 2016.
+Jump up ^ Matthew Palmer (July 13, 2012). "vSwitch the New Battleground for Network Virtualization". Sdncentral.com. Retrieved August 25, 2016.
+Jump up ^ Hernandez, Pedro (2016-06-13). "VMware Workspace ONE Anchors Mobile Management on Identity". Mobile/Wireless. Datamation. QuinStreet Inc. Retrieved 2016-06-23. [...] Workspace ONE [...] integrates elements from AirWatch, VMware Identity Manager and Horizon Air to create secure, user-centric app experiences for both mobile workers and IT administrators based on user identities and policies governing their access to corporate apps and data.
+External links[edit]
+	Wikimedia Commons has media related to VMware.
+Official website
+[show] v t e
+EMC Corporation
+[show] v t e
+Major information technology companies
+Categories: 1998 establishments in CaliforniaCloud computing providersCompanies based in Palo Alto, CaliforniaCompanies established in 1998Companies listed on the New York Stock ExchangeEMC CorporationSoftware companies based in the San Francisco Bay AreaVMware
+Navigation menu
+Not logged inTalkContributionsCreate accountLog inArticleTalkReadEditView historySearch
+
+Search Wikipedia
+Go
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+Wikipedia store
+Interaction
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact page
+Tools
+What links here
+Related changes
+Upload file
+Special pages
+Permanent link
+Page information
+Wikidata item
+Cite this page
+Print/export
+Create a book
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+Languages
+العربية
+বাংলা
+Català
+Čeština
+Deutsch
+Ελληνικά
+Español
+فارسی
+Français
+한국어
+Bahasa Indonesia
+Italiano
+עברית
+Қазақша
+Limburgs
+Magyar
+മലയാളം
+Nederlands
+日本語
+Norsk bokmål
+Occitan
+Polski
+Português
+Română
+Русский
+Simple English
+Српски / srpski
+Suomi
+Svenska
+Türkçe
+Українська
+Tiếng Việt
+中文
+Edit links
+This page was last modified on 16 November 2016, at 11:58.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaDevelopersCookie statementMobile viewWikimedia Foundation Powered by MediaWiki
+
+VMware
+From Wikipedia, the free encyclopedia
+Ambox current red.svg
+This article needs to be updated. Please update this article to reflect recent events or newly available information. (March 2016)
+VMware Inc.
+Vmware.svg
+VMware HQ campus 3401 Hillview entrance.JPG
+Campus headquarters, Palo Alto, California
+Type
+Public
+Traded as	NYSE: VMW
+Industry	Computer software
+Founded	October 26, 1998; 18 years ago
+Palo Alto, California, U.S.
+Founder	Diane Greene
+Mendel Rosenblum
+Scott Devine
+Ellen Wang
+Edouard Bugnion
+Headquarters	Palo Alto, California, U.S.
+Products	vSphere, ESX, ESXi, Workstation, Fusion, Player, Server, VMware Service Manager, ThinApp, View, ACE, Lab Manager, Infrastructure, Converter, Site Recovery Manager, Stage Manager, vRealize Automation, vRealize Operations Management Suite, VMware NSX, vRealize Business
+Revenue	Increase US$6.035 billion (2014)
+Operating income
+Decrease US$1.027 billion (2014)
+Net income
+Decrease US$0.86 billion (2014)
+Total assets	Decrease US$15.216 billion (2014)
+Total equity	Increase US$7.586 billion (2014)
+Number of employees
+18,000[1] (December 31, 2014)
+Parent	Dell Technologies
+Website	www.vmware.com
+VMware, Inc. is a subsidiary of Dell Technologies, that provides cloud and virtualization software and services,[2][3][4] and claims to be the first to successfully virtualize the x86 architecture commercially.[5] Founded in 1998, VMware is based in Palo Alto, California. In 2004, it was acquired by and became a subsidiary of EMC Corporation, then on August 14, 2007, EMC sold 15% of the company in a New York Stock Exchange IPO. The company trades under the symbol VMW.[6]
+
+VMware's desktop software runs on Microsoft Windows, Linux, and Mac OS X, while its enterprise software hypervisors for servers, VMware ESX and VMware ESXi, are bare-metal hypervisors that run directly on server hardware without requiring an additional underlying operating system.[7]
+
+In anticipation of Dell's acquisition of parent company EMC, VMWare announced a restructuring in January 2016 to reduce about 800 positions, and some executives resigned.[8][9][10][11][12] There were doubts about the company's future and its product lines, particularly for the desktop. In August 2016, announcing the release of new desktop products, the company said "we’re very much alive and well".[13]
+
+Contents  [hide] 
+1	History
+1.1	Acquisitions
+1.2	Litigation
+2	Core product design
+3	Products
+3.1	Desktop software
+3.2	Server software
+3.3	Cloud management software
+3.4	Public cloud
+3.5	Virtual desktop infrastructure
+3.6	Application management
+3.7	Storage management
+3.8	Backup software
+3.9	Networking and security products
+3.10	Other products
+4	See also
+5	References
+6	External links
+History[edit]
+In 1998, VMware was founded by Diane Greene, Mendel Rosenblum, Scott Devine, Ellen Wang and Edouard Bugnion. Greene and Rosenblum, who are married, first met while at the University of California, Berkeley.[14] Edouard Bugnion remained the chief architect and CTO of VMware until 2005,[15] and went on to found Nuova Systems (now part of Cisco). For the first year, VMware operated in stealth mode, with roughly 20 employees by the end of 1998. The company was launched officially early in the second year, in February 1999, at the DEMO Conference organized by Chris Shipley.[16] The first product, VMware Workstation, was delivered in May 1999,[17] and the company entered the server market in 2001 with VMware GSX Server (hosted) and VMware ESX Server (hostless).[18]
+
+In 2003, VMware launched VMware Virtual Center, the VMotion, and Virtual SMP technology. 64-bit support appeared in 2004. The same year, the company was acquired by EMC Corporation for US$625 million.[19]
+
+In August 2007, EMC released 15% of the company's shares in VMware in an initial public offering on the New York Stock Exchange. The stock debuted at US$29 per share and closed the day at US$51.[20]
+
+On July 8, 2008, VMware co-founder, president and CEO Diane Greene, was unexpectedly fired by the VMware Board of Directors and replaced by Paul Maritz, a retired 14-year Microsoft veteran who was heading EMC's cloud computing business unit.[21] In the same news release VMware stated that 2008 revenue growth will be "modestly below the previous guidance of 50% growth over 2007". As a result, market price of VMware dropped nearly 25%. Then, on September 10, 2008, Rosenblum, the company's chief scientist, resigned.
+
+On September 16, 2008, VMware announced a collaboration with Cisco Systems. One result was the Cisco Nexus 1000V, a distributed virtual software switch, an integrated option in the VMware infrastructure.[22]
+
+On April 12, 2011, VMware released an open source platform-as-a-service system called Cloud Foundry, as well as a hosted version of the service. This supported application deployment for Java, Ruby on Rails, Sinatra, Node.js, and Scala, as well as database support for MySQL, MongoDB, Redis, Postgres, RabbitMQ.[23]
+
+In March 2013, VMware gave details of a spin-off of Pivotal. All of VMware's application- and developer-oriented products, including Spring, tc Server, Cloud Foundry, RabbitMQ, GemFire, and SQLFire were transferred to this organization.[24] It also announced that it was introducing its own IaaS service, vCloud Hybrid Service, in a shift of its strategy of selling software to cloud service providers.[citation needed]
+
+In April 2013, Pivotal was formally created with GE as a minority shareholder.[citation needed]
+
+In May 2013, VMware launched vCloud Hybrid Service at its new Palo Alto headquarters (vCloud Hybrid Service now known as vCloud Air),[25] announcing an early access program in a Las Vegas data center. The service is designed to function as an extension of its customer's existing vSphere installations, with full compatibility with existing virtual machines virtualized with VMware software and tightly integrated networking. The service is based on vCloud Director 5.1/vSphere 5.1.[citation needed]
+
+In September 2013 at VMworld San Francisco, VMware announced general availability of vCloud Hybrid Service and expansion to Sterling, Virginia, Santa Clara, California, Dallas, Texas, and a service beta in the UK. It also pre-announced a disaster recovery and desktop-as-a-service offering based on Desktone, which it went on to acquire in October 2013.[citation needed]
+
+Following the news in early 2016 of the impending acquisition by Dell, and despite Dell's assurance that VMware would remain independent, VMware president and COO Carl Eschenbach left VMware to join Sequoia Capital, and Martin Casado, VMware's general manager for its Networking and Security business, left for Andreessen Horowitz. Analysts commented that the cultures at Dell and EMC, and at EMC and VMware, are different, and said that they had heard that impending corporate cultural collisions and potentially radical product overlap pruning, would cause many EMC and VMware personnel to leave;[26] VMware CEO Pat Gelsinger, following rumours, categorically denied that he would leave.[27] [11]
+
+Acquisitions[edit]
+Date	Company	Notes
+October 2005	Asset Optimization Group	Specialized in capacity planning.[28]
+June 2006	Akimbi Systems	Specialized in lab management.[29]
+September 2007	Dunes Technologies	VMware acquired the Swiss company for an undisclosed sum.[30]
+July 2008	B-hive Networks	VMware acquired the Israeli start-up for an undisclosed sum. Following the acquisition VMware opened an R&D center in Israel, based initially on B-Hive’s facilities and team in Israel.[31]
+October 2008	Trango Virtual Processors	Was a Grenoble-based mobile hypervisor developer.[32]
+November 26, 2008	Tungsten Graphics	Core expertise in 3D graphics driver development.[33]
+August 10, 2009	SpringSource	Performed enterprise and web application development and management.[34] The acquisition allowed use of the term platform as a service (PaaS). The acquisition expanded VMware's education services to include SpringSource University and its authorized training partners such as Spring People in India.[35] The SpringSource assets became part of the Pivotal joint venture in April 2013.
+January 12, 2010	Zimbra (software)	Designed for open-source collaboration, it was bought from Yahoo and (later sold in July 2013 to Telligent Systems).[citation needed]
+May 6, 2010	GemStone	Incorporated into VMware's SpringSource division.[citation needed]
+April 26, 2011	SlideRocket	A startup which developed a SaaS application for building business presentations that are stored online. Through a Web-based interface, users can handle all parts of the process, from designing slides and compiling content, to reviewing documents and publishing and delivering them. VMware subsequently sold SlideRocket to ClearSlide on March 5, 2013.[citation needed]
+August 2011	PacketMotion	User Activity Monitoring startup. Their PacketSentry product was planned to be incorporated into VMware vCloud Networking and Security[36] but then it was EOSL'd by the end of 2012.[37]
+May 22, 2012	Wanova	[38]
+July 2, 2012	DynamicOps	[39]
+July 23, 2012	Nicira	Software for network virtualization, which was later included in the VMware NSX product.[40][41] The deal was valued at over $1.2 billion.[42]
+February 11, 2013	Virsto	[43]
+October 15, 2013	Desktone	[44]
+January 22, 2014	AirWatch and Wandering WiFi	Acquired for US$1.54 billion.[45][46][47]
+March 6, 2014	ThirdSky	ITIL/ITSM Consulting.
+August 20, 2014	CloudVolumes (formerly SnapVolumes)	[48]
+October 29, 2014	Continuent	[49]
+Litigation[edit]
+In March 2015, the Software Freedom Conservancy announced it was funding litigation by Christoph Hellwig against VMware for violation of his copyrights in its ESXi product. The case will be heard in Hamburg, Germany.[50] The SFC claims VMware is using both the Linux kernel and Busybox without respecting the terms of the GPL copyright license, while VMware told journalists that it believed the case was without merit[51] and expressed disappointment that Conservancy had resorted to litigation.[52]
+
+Core product design[edit]
+VMware developed a range of products, most notable of which are their hypervisors. VMware became well known for their first type 2 hypervisor known as GSX. This product has since evolved into two hypervisor products lines: VMware's type 1 hypervisors running directly on hardware and their hosted type 2 hypervisors.
+
+VMware software provides a completely virtualized set of hardware to the guest operating system.[53] VMware software virtualizes the hardware for a video adapter, a network adapter, and hard disk adapters. The host provides pass-through drivers for guest USB, serial, and parallel devices. In this way, VMware virtual machines become highly portable between computers, because every host looks nearly identical to the guest. In practice, a system administrator can pause operations on a virtual machine guest, move or copy that guest to another physical computer, and there resume execution exactly at the point of suspension. Alternatively, for enterprise servers, a feature called vMotion allows the migration of operational guest virtual machines between similar but separate hardware hosts sharing the same storage (or, with vMotion Storage, separate storage can be used, too). Each of these transitions is completely transparent to any users on the virtual machine at the time it is being migrated.
+
+VMware Workstation, Server, and ESX take a more optimized path to running target operating systems on the host than that of emulators (such as Bochs) which simulate the function of each CPU instruction on the target machine one-by-one, or that of dynamic recompilation which compiles blocks of machine-instructions the first time they execute, and then uses the translated code directly when the code runs subsequently (Microsoft Virtual PC for Mac OS X takes this approach). VMware software does not emulate an instruction set for different hardware not physically present. This significantly boosts performance, but can cause problems when moving virtual machine guests between hardware hosts using different instruction sets (such as found in 64-bit Intel and AMD CPUs), or between hardware hosts with a differing number of CPUs. Software that is CPU agnostic can usually survive such a transition, unless it is agnostic by forking at startup, in which case, the software or the guest OS must be stopped before moving it, then restarted after the move.
+
+VMware's products predate the virtualization extensions to the x86 instruction set, and do not require virtualization-enabled processors. On newer processors, the hypervisor is now designed to take advantage of the extensions. However, unlike many other hypervisors, VMware still supports older processors. In such cases, it uses the CPU to run code directly whenever possible (as, for example, when running user-mode and virtual 8086 mode code on x86). When direct execution cannot operate, such as with kernel-level and real-mode code, VMware products use binary translation (BT) to re-write the code dynamically. The translated code gets stored in spare memory, typically at the end of the address space, which segmentation mechanisms can protect and make invisible. For these reasons, VMware operates dramatically faster than emulators, running at more than 80% of the speed that the virtual guest operating system would run directly on the same hardware. In one study VMware claims a slowdown over native ranging from 0–6 percent for the VMware ESX Server.[54]
+
+VMware's approach avoids some of the difficulties of virtualization on x86-based platforms. Virtual machines may deal with offending instructions by replacing them, or by simply running kernel code in user mode. Replacing instructions runs the risk that the code may fail to find the expected content if it reads itself; one cannot protect code against reading while allowing normal execution, and replacing in place becomes complicated. Running the code unmodified in user mode will also fail, as most instructions which just read the machine state do not cause an exception and will betray the real state of the program, and certain instructions silently change behavior in user mode. One must always rewrite, performing a simulation of the current program counter in the original location when necessary and (notably) remapping hardware code breakpoints.
+
+Although VMware virtual machines run in user mode, VMware Workstation itself requires the installation of various drivers in the host operating system, notably to dynamically switch the Global Descriptor Table (GDT) and the Interrupt Descriptor Table (IDT).
+
+The VMware product line can also run different operating systems on a dual-boot system simultaneously by booting one partition natively while using the other as a guest within VMware Workstation.
+
+Products[edit]
+Desktop software[edit]
+VMware Workstation, 1999, the first product launched by VMware. This software suite allows users to run multiple instances of x86 or x86-64 -compatible operating systems on a single physical PC. At Workstation Pro v12 as of 2016.
+VMware Fusion provides similar functionality for users of the Intel Mac platform, along with full compatibility with virtual machines created by other VMware products.
+VMware Player was freeware for non-commercial use, without requiring a licence for VMware Workstation or VMware Fusion, and available for commercial use with permission. It was similar to Workstation, with reduced functionality; version numbers were not the same, e.g., Player 7 coexisted with Workstation 11. After version 7.10, VMware Player as such was replaced by VMware Workstation Player version 12, without some of the features of full Workstation Pro.
+VMware Workstation versions 12.0.0, 12.0.1, and 12.1.0 were released at intervals of about two months in 2015.[55] In January 2016 the entire development team behind VMWare Workstation and Fusion was disbanded and all US developers were immediately fired.[8][9][10][12] The future of these products remained vague; the company said that development would continue. On April 24, 2016 maintenance release 12.1.1 was released. VMware announced the release on 8 September 2016 of Workstation 12.5 and Fusion 8.5 as a free upgrade supporting Windows 10 Anniversary edition and Windows Server 2016.[13]
+
+Server software[edit]
+VMware has produced two virtualization products for servers:
+
+VMware vSphere[56] (also called "ESXi"), an enterprise-level product, can deliver greater performance than the freeware VMware Server, due to lower system overhead. VMware ESXi, as a "bare-metal" product, runs directly on the server hardware, allowing virtual servers to also use hardware more or less directly. In addition, VMware ESXi integrates into VMware vCenter, which offers extra services
+VMware Server (formerly called "GSX Server"; obsolete as of 2011)[57] was[58] also provided free of charge for non-commercial use, like VMware Player, and can also set up virtual machines. As a "hosted" application, VMware Server runs within an existing Linux or Windows operating system.
+Cloud management software[edit]
+VMware vRealize Suite - a cloud management platform purpose-built for a hybrid cloud.
+VMware EVO SDDC - EVO SDDC provides an easy way to deploy and operate a private cloud on an integrated SDDC system
+VMware Go was a web-based service to guide users of any expertise level through the installation and configuration of VMware vSphere Hypervisor. It was end-of-lifed in early 2014.
+
+Public cloud[edit]
+VMware vCloud Air is a public cloud computing service.
+
+Virtual desktop infrastructure[edit]
+VMware Horizon View is a virtual desktop infrastructure (VDI) product.
+
+Application management[edit]
+The VMware Workspace Portal is a self-service app store for workspace management[59]
+
+Storage management[edit]
+VMware VSAN (Virtual Storage Area Network), version 6.2 was released in early 2016.[60]
+
+Backup software[edit]
+In April 2011, EMC transferred control of Mozy to VMware.[61]
+
+Mozy produced MozyHome and MozyPro.[62] MozyHome is the consumer version of the Mozy backup service. It is available to buy on a monthly subscription.[63] MozyPro is the business version of the Mozy backup service. MozyPro requires a separate license for each computer that is being backed up, as well as a server license for any server that is being backed up. Customers then pay per gigabyte of data they have in the data center.[64]
+
+Networking and security products[edit]
+vCloud Networking and Security was a software-defined networking and security product. By 2013 it was superseded by VMware NSX, VMware's network virtualization product marketed using the term software-defined data center (SDDC).[65][66] The technology included some acquired from the purchase of Nicira for $1.26 billion, announced in July 2012.[41][42][41] Nicira was founded in 2007 by Martin Casado, Nick McKeown and Scott Shenker. Nicira created their own proprietary versions of the OpenFlow, Open vSwitch, and OpenStack networking projects.[67]
+
+Other products[edit]
+Workspace ONE allows mobile users to access to apps and data.[68]
+
+See also[edit]
+Comparison of platform virtualization software
+Hardware virtualization
+Hypervisor
+VMware VMFS
+References[edit]
+Jump up ^ "Form 10-K, Annual Report for Fiscal Year ended December 31, 2014" (PDF). VMware.com.
+Jump up ^ "VMware leader in virtualization market".
+Jump up ^ Lohr, Steve (2009-08-31). "VMware market share more than 80%". The New York Times. Retrieved 2010-05-27.
+Jump up ^ "VMware, Hyper-V virtualization leave others in the dust".
+Jump up ^ "Understanding full virtualization, paravirtualization, and hardware assist" (PDF). 2007-10-15. Retrieved 2014-12-11.
+Jump up ^ "Investor FAQs". Retrieved 2014-12-11.
+Jump up ^ "ESX Server Architecture". Vmware.com. Archived from the original on January 31, 2009. Retrieved 2009-10-22.
+^ Jump up to: a b "VMware Reports Fourth Quarter and Full Year 2015 Results". Press Release. VMware. January 26, 2016. Retrieved August 25, 2016.
+^ Jump up to: a b Simon Sharwood (January 27, 2016). "VMware axes Fusion and Workstation US devs". The Register. Retrieved August 25, 2016.
+^ Jump up to: a b Simon Sharwood (January 27, 2016). "VMware says vSphere in decline, new multi-cloud plan will ensure growth: Virtzilla beats the street, fires 800, crimps vCloud Air, doubles down on new products". The Register. Retrieved August 25, 2016.
+^ Jump up to: a b Ron Miller (January 26, 2016). "VMware Confirms Layoffs In Earnings Statement As It Prepares For Dell Acquisition". TechCrunch. Retrieved August 25, 2016.
+^ Jump up to: a b Christian Hammond (January 26, 2016). "A Tribute to VMware Workstation, Fusion, and Hosted UI". ChipLog. Retrieved August 25, 2016.
+^ Jump up to: a b Jon Brodkin (30 August 2016). "VMware says "we're not dead," updates Fusion and Workstation for free". Arstechnica.co.uk. Retrieved 8 September 2016.
+Jump up ^ Lashinksky, Adam (2007-10-02). "50 Most Powerful Women in Business — Full speed ahead". CNN. In 1988 she picked up a second master's, in computer science, at the University of California at Berkeley, where she met Rosenblum
+Jump up ^ "Edouard Bugnion lives in the virtual world".
+Jump up ^ "VMware Milestones".
+Jump up ^ "VMware company history".
+Jump up ^ "VMware ready to capitalize on hot server market". June 30, 2015.
+Jump up ^ "EMC Completes Acquisition of VMware". Vmware.com. Retrieved 2013-06-27.
+Jump up ^ Mullins, Robert (2007-08-14). "Update: VMware the bright spot on a gray Wall Street day". IDG News Service. Retrieved 2007-08-15.
+Jump up ^ Savitz, Eric (2008-07-08). "VMware ousts CEO Diane Greene; cuts '08 guidance". Barron's. Retrieved 2009-07-01.
+Jump up ^ "Virtual Networking Features of the VMware vNetwork Distributed Switch and Cisco Nexus 1000V Series Switches" (PDF).
+Jump up ^ Cloud Foundry Frequently Asked Questions
+Jump up ^ "EMC, VMW Analyst Day: Street Awaits 'Pivotal,' Financial Update". Retrieved 2014-12-11.
+Jump up ^ "Using VMware vCloud Connector". Retrieved 2014-12-11.
+Jump up ^ Chris Mellor (11 April 2016). "Cracks show in VMware exec ranks". The Register. Retrieved 11 May 2016.
+Jump up ^ Simon Sharwood (13 May 2016). "VMware CEO Pat Gelsinger quashes departure rumours". Channelregister.co.uk. Retrieved 2 June 2016.
+Jump up ^ "A look at VMware's past acquisitions".
+Jump up ^ "VMware acquires virtualization company Akimbi".
+Jump up ^ "VMware Acquires Dunes Technologies". VMware. Sep 11, 2007.
+Jump up ^ Vidra, Eze (May 28, 2008). "VMWare Snatches B-Hive, Opens R&D Center in Israel". VCcafe.
+Jump up ^ Ward, Keith. "The Next Frontier: Mobile Phone Hypervisors". Virtualizationreview.com. Retrieved 2013-06-27.
+Jump up ^ Marshall, David (2008-12-16), VMware's year end acquisition of Tungsten Graphics, InfoWorld
+Jump up ^ "VMware to Acquire SpringSource".
+Jump up ^ springpeople.com
+Jump up ^ "VMware and PacketMotion: Data Access Monitoring, Network Security & Compliance | United States". www.vmware.com. Retrieved 2016-01-05.
+Jump up ^ "VMware Support for PacketMotion Products | United States". www.vmware.com. Retrieved 2016-01-05.
+Jump up ^ "VMware To Acquire Wanova, Intelligent Desktop Solutions Provider". VMware. 2012-05-22. Retrieved 2012-06-01.
+Jump up ^ "VMware to Acquire DynamicOps, Inc". VMware. 2012-07-02. Retrieved 2013-06-27.
+Jump up ^ "VMware to Acquire Nicira". News release. VMware. July 23, 2012. Retrieved July 11, 2013.
+^ Jump up to: a b c Alex Williams (July 23, 2012). "VMware Buys Nicira For $1.26 Billion And Gives More Clues About Cloud Strategy". TechCrunch. Retrieved August 25, 2016.
+^ Jump up to: a b Julie Bort (October 26, 2014), "The Inside Story Of A $1 Billion Acquisition That Caused Cisco To Divorce Its Closest Partner, EMC", Business Insider, retrieved August 25, 2016
+Jump up ^ "VMware to Acquire Virsto". News release. VMware. February 11, 2013. Retrieved 2013-07-11.
+Jump up ^ "VMware Acquires Desktone". News release. VMware. October 15, 2013. Retrieved 2013-10-15.
+Jump up ^ "VMware's AirWatch Acquisition To Enhance Mobility In End-User Computing". Forbes. Forbes.com LLC. Retrieved 6 March 2014.
+Jump up ^ "VMware to Acquire AirWatch". Retrieved 2014-12-11.
+Jump up ^ "iPhone APIs Ultimately Led to VMware's AirWatch Acquisition". The Wall Street Journal. Dow Jones & Company, Inc. Retrieved 2014-03-06.
+Jump up ^ ZDNet. "VMware buys CloudVolumes for real-time desktop app delivery". zdnet.com. Retrieved 21 August 2014.
+Jump up ^ VMware vCloud Blog. "VMware Acquires Continuent". vmware.com. Retrieved 12 December 2014.
+Jump up ^ "Conservancy Announces Funding for GPL Compliance Lawsuit". Software Freedom Conservancy. Retrieved 6 March 2015.
+Jump up ^ Phipps, Simon (5 March 2015). "VMware heads to court over GPL violations". InfoWorld. Retrieved 11 March 2015.
+Jump up ^ "VMware Update to Mr. Hellwig's Legal Proceedings". VMware. Retrieved 11 March 2015.
+Jump up ^ "How does VMWare Work?". Extremetech.com. 2009-06-22. Retrieved 2009-07-01.
+Jump up ^ "A Performance Comparison of Hypervisors" (PDF).
+Jump up ^ "Download VMware Workstation Player". VMware. Retrieved 11 May 2016. Download site for VMware Player 7.x and Workstation Player 12.x
+Jump up ^ VMware ESXi Bare-Metal Hypervisor for Multiple Virtual Machines - United States. VMware.com. Retrieved on 2013-10-16.
+Jump up ^ "VMware Products Life Cycle Policies". VMware.
+Jump up ^ "VMware Server, Free Virtualization Download for Virtual Server Consolidation". Vmware.com. 2011-06-30. Retrieved 2013-06-27.
+Jump up ^ "Workspace Portal". VMware. 2015-03-12. Retrieved 2015-03-12.
+Jump up ^ Forrest, Conner (February 10, 2016). "VMware VSAN 6.2: The 3 things you need to know". TechRepublic. Retrieved 2016-02-10.
+Jump up ^ Mellor, Chris (April 5, 2011). "VMware 'buys' Mozy for its cloudy goodness". The Register. Retrieved October 3, 2013.
+Jump up ^ "MozyHome / MozyPro". CrunchBase. January 1, 2008. Retrieved 2010-08-30.
+Jump up ^ Kodesh, Harel (February 1, 2011). "New MozyHome Plans". Retrieved 2011-02-02.
+Jump up ^ "MozyPro Launches". TechCrunch. April 3, 2007. Retrieved 2010-08-31.
+Jump up ^ Morreale, Patricia A.; Anderson, James M. (2014-12-03). Software Defined Networking: Design and Deployment. CRC Press (published 2014). p. 75. ISBN 9781482238631. Retrieved 2014-11-14. VMware NSX creates a virtual network overlay that is loosely coupled to the physical network underneath.
+Jump up ^ Timothy Prickett Morgan (March 14, 2013). "VMware NSX mashes up Nicira and homegrown network virt: Virtualizing entire data centers, including admins for systems and networks". The Register. Retrieved August 25, 2016.
+Jump up ^ Matthew Palmer (July 13, 2012). "vSwitch the New Battleground for Network Virtualization". Sdncentral.com. Retrieved August 25, 2016.
+Jump up ^ Hernandez, Pedro (2016-06-13). "VMware Workspace ONE Anchors Mobile Management on Identity". Mobile/Wireless. Datamation. QuinStreet Inc. Retrieved 2016-06-23. [...] Workspace ONE [...] integrates elements from AirWatch, VMware Identity Manager and Horizon Air to create secure, user-centric app experiences for both mobile workers and IT administrators based on user identities and policies governing their access to corporate apps and data.
+External links[edit]
+	Wikimedia Commons has media related to VMware.
+Official website
+[show] v t e
+EMC Corporation
+[show] v t e
+Major information technology companies
+Categories: 1998 establishments in CaliforniaCloud computing providersCompanies based in Palo Alto, CaliforniaCompanies established in 1998Companies listed on the New York Stock ExchangeEMC CorporationSoftware companies based in the San Francisco Bay AreaVMware
+Navigation menu
+Not logged inTalkContributionsCreate accountLog inArticleTalkReadEditView historySearch
+
+Search Wikipedia
+Go
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+Wikipedia store
+Interaction
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact page
+Tools
+What links here
+Related changes
+Upload file
+Special pages
+Permanent link
+Page information
+Wikidata item
+Cite this page
+Print/export
+Create a book
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+Languages
+العربية
+বাংলা
+Català
+Čeština
+Deutsch
+Ελληνικά
+Español
+فارسی
+Français
+한국어
+Bahasa Indonesia
+Italiano
+עברית
+Қазақша
+Limburgs
+Magyar
+മലയാളം
+Nederlands
+日本語
+Norsk bokmål
+Occitan
+Polski
+Português
+Română
+Русский
+Simple English
+Српски / srpski
+Suomi
+Svenska
+Türkçe
+Українська
+Tiếng Việt
+中文
+Edit links
+This page was last modified on 16 November 2016, at 11:58.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaDevelopersCookie statementMobile viewWikimedia Foundation Powered by MediaWiki
+VMware
+From Wikipedia, the free encyclopedia
+Ambox current red.svg
+This article needs to be updated. Please update this article to reflect recent events or newly available information. (March 2016)
+VMware Inc.
+Vmware.svg
+VMware HQ campus 3401 Hillview entrance.JPG
+Campus headquarters, Palo Alto, California
+Type
+Public
+Traded as	NYSE: VMW
+Industry	Computer software
+Founded	October 26, 1998; 18 years ago
+Palo Alto, California, U.S.
+Founder	Diane Greene
+Mendel Rosenblum
+Scott Devine
+Ellen Wang
+Edouard Bugnion
+Headquarters	Palo Alto, California, U.S.
+Products	vSphere, ESX, ESXi, Workstation, Fusion, Player, Server, VMware Service Manager, ThinApp, View, ACE, Lab Manager, Infrastructure, Converter, Site Recovery Manager, Stage Manager, vRealize Automation, vRealize Operations Management Suite, VMware NSX, vRealize Business
+Revenue	Increase US$6.035 billion (2014)
+Operating income
+Decrease US$1.027 billion (2014)
+Net income
+Decrease US$0.86 billion (2014)
+Total assets	Decrease US$15.216 billion (2014)
+Total equity	Increase US$7.586 billion (2014)
+Number of employees
+18,000[1] (December 31, 2014)
+Parent	Dell Technologies
+Website	www.vmware.com
+VMware, Inc. is a subsidiary of Dell Technologies, that provides cloud and virtualization software and services,[2][3][4] and claims to be the first to successfully virtualize the x86 architecture commercially.[5] Founded in 1998, VMware is based in Palo Alto, California. In 2004, it was acquired by and became a subsidiary of EMC Corporation, then on August 14, 2007, EMC sold 15% of the company in a New York Stock Exchange IPO. The company trades under the symbol VMW.[6]
+
+VMware's desktop software runs on Microsoft Windows, Linux, and Mac OS X, while its enterprise software hypervisors for servers, VMware ESX and VMware ESXi, are bare-metal hypervisors that run directly on server hardware without requiring an additional underlying operating system.[7]
+
+In anticipation of Dell's acquisition of parent company EMC, VMWare announced a restructuring in January 2016 to reduce about 800 positions, and some executives resigned.[8][9][10][11][12] There were doubts about the company's future and its product lines, particularly for the desktop. In August 2016, announcing the release of new desktop products, the company said "we’re very much alive and well".[13]
+
+Contents  [hide] 
+1	History
+1.1	Acquisitions
+1.2	Litigation
+2	Core product design
+3	Products
+3.1	Desktop software
+3.2	Server software
+3.3	Cloud management software
+3.4	Public cloud
+3.5	Virtual desktop infrastructure
+3.6	Application management
+3.7	Storage management
+3.8	Backup software
+3.9	Networking and security products
+3.10	Other products
+4	See also
+5	References
+6	External links
+History[edit]
+In 1998, VMware was founded by Diane Greene, Mendel Rosenblum, Scott Devine, Ellen Wang and Edouard Bugnion. Greene and Rosenblum, who are married, first met while at the University of California, Berkeley.[14] Edouard Bugnion remained the chief architect and CTO of VMware until 2005,[15] and went on to found Nuova Systems (now part of Cisco). For the first year, VMware operated in stealth mode, with roughly 20 employees by the end of 1998. The company was launched officially early in the second year, in February 1999, at the DEMO Conference organized by Chris Shipley.[16] The first product, VMware Workstation, was delivered in May 1999,[17] and the company entered the server market in 2001 with VMware GSX Server (hosted) and VMware ESX Server (hostless).[18]
+
+In 2003, VMware launched VMware Virtual Center, the VMotion, and Virtual SMP technology. 64-bit support appeared in 2004. The same year, the company was acquired by EMC Corporation for US$625 million.[19]
+
+In August 2007, EMC released 15% of the company's shares in VMware in an initial public offering on the New York Stock Exchange. The stock debuted at US$29 per share and closed the day at US$51.[20]
+
+On July 8, 2008, VMware co-founder, president and CEO Diane Greene, was unexpectedly fired by the VMware Board of Directors and replaced by Paul Maritz, a retired 14-year Microsoft veteran who was heading EMC's cloud computing business unit.[21] In the same news release VMware stated that 2008 revenue growth will be "modestly below the previous guidance of 50% growth over 2007". As a result, market price of VMware dropped nearly 25%. Then, on September 10, 2008, Rosenblum, the company's chief scientist, resigned.
+
+On September 16, 2008, VMware announced a collaboration with Cisco Systems. One result was the Cisco Nexus 1000V, a distributed virtual software switch, an integrated option in the VMware infrastructure.[22]
+
+On April 12, 2011, VMware released an open source platform-as-a-service system called Cloud Foundry, as well as a hosted version of the service. This supported application deployment for Java, Ruby on Rails, Sinatra, Node.js, and Scala, as well as database support for MySQL, MongoDB, Redis, Postgres, RabbitMQ.[23]
+
+In March 2013, VMware gave details of a spin-off of Pivotal. All of VMware's application- and developer-oriented products, including Spring, tc Server, Cloud Foundry, RabbitMQ, GemFire, and SQLFire were transferred to this organization.[24] It also announced that it was introducing its own IaaS service, vCloud Hybrid Service, in a shift of its strategy of selling software to cloud service providers.[citation needed]
+
+In April 2013, Pivotal was formally created with GE as a minority shareholder.[citation needed]
+
+In May 2013, VMware launched vCloud Hybrid Service at its new Palo Alto headquarters (vCloud Hybrid Service now known as vCloud Air),[25] announcing an early access program in a Las Vegas data center. The service is designed to function as an extension of its customer's existing vSphere installations, with full compatibility with existing virtual machines virtualized with VMware software and tightly integrated networking. The service is based on vCloud Director 5.1/vSphere 5.1.[citation needed]
+
+In September 2013 at VMworld San Francisco, VMware announced general availability of vCloud Hybrid Service and expansion to Sterling, Virginia, Santa Clara, California, Dallas, Texas, and a service beta in the UK. It also pre-announced a disaster recovery and desktop-as-a-service offering based on Desktone, which it went on to acquire in October 2013.[citation needed]
+
+Following the news in early 2016 of the impending acquisition by Dell, and despite Dell's assurance that VMware would remain independent, VMware president and COO Carl Eschenbach left VMware to join Sequoia Capital, and Martin Casado, VMware's general manager for its Networking and Security business, left for Andreessen Horowitz. Analysts commented that the cultures at Dell and EMC, and at EMC and VMware, are different, and said that they had heard that impending corporate cultural collisions and potentially radical product overlap pruning, would cause many EMC and VMware personnel to leave;[26] VMware CEO Pat Gelsinger, following rumours, categorically denied that he would leave.[27] [11]
+
+Acquisitions[edit]
+Date	Company	Notes
+October 2005	Asset Optimization Group	Specialized in capacity planning.[28]
+June 2006	Akimbi Systems	Specialized in lab management.[29]
+September 2007	Dunes Technologies	VMware acquired the Swiss company for an undisclosed sum.[30]
+July 2008	B-hive Networks	VMware acquired the Israeli start-up for an undisclosed sum. Following the acquisition VMware opened an R&D center in Israel, based initially on B-Hive’s facilities and team in Israel.[31]
+October 2008	Trango Virtual Processors	Was a Grenoble-based mobile hypervisor developer.[32]
+November 26, 2008	Tungsten Graphics	Core expertise in 3D graphics driver development.[33]
+August 10, 2009	SpringSource	Performed enterprise and web application development and management.[34] The acquisition allowed use of the term platform as a service (PaaS). The acquisition expanded VMware's education services to include SpringSource University and its authorized training partners such as Spring People in India.[35] The SpringSource assets became part of the Pivotal joint venture in April 2013.
+January 12, 2010	Zimbra (software)	Designed for open-source collaboration, it was bought from Yahoo and (later sold in July 2013 to Telligent Systems).[citation needed]
+May 6, 2010	GemStone	Incorporated into VMware's SpringSource division.[citation needed]
+April 26, 2011	SlideRocket	A startup which developed a SaaS application for building business presentations that are stored online. Through a Web-based interface, users can handle all parts of the process, from designing slides and compiling content, to reviewing documents and publishing and delivering them. VMware subsequently sold SlideRocket to ClearSlide on March 5, 2013.[citation needed]
+August 2011	PacketMotion	User Activity Monitoring startup. Their PacketSentry product was planned to be incorporated into VMware vCloud Networking and Security[36] but then it was EOSL'd by the end of 2012.[37]
+May 22, 2012	Wanova	[38]
+July 2, 2012	DynamicOps	[39]
+July 23, 2012	Nicira	Software for network virtualization, which was later included in the VMware NSX product.[40][41] The deal was valued at over $1.2 billion.[42]
+February 11, 2013	Virsto	[43]
+October 15, 2013	Desktone	[44]
+January 22, 2014	AirWatch and Wandering WiFi	Acquired for US$1.54 billion.[45][46][47]
+March 6, 2014	ThirdSky	ITIL/ITSM Consulting.
+August 20, 2014	CloudVolumes (formerly SnapVolumes)	[48]
+October 29, 2014	Continuent	[49]
+Litigation[edit]
+In March 2015, the Software Freedom Conservancy announced it was funding litigation by Christoph Hellwig against VMware for violation of his copyrights in its ESXi product. The case will be heard in Hamburg, Germany.[50] The SFC claims VMware is using both the Linux kernel and Busybox without respecting the terms of the GPL copyright license, while VMware told journalists that it believed the case was without merit[51] and expressed disappointment that Conservancy had resorted to litigation.[52]
+
+Core product design[edit]
+VMware developed a range of products, most notable of which are their hypervisors. VMware became well known for their first type 2 hypervisor known as GSX. This product has since evolved into two hypervisor products lines: VMware's type 1 hypervisors running directly on hardware and their hosted type 2 hypervisors.
+
+VMware software provides a completely virtualized set of hardware to the guest operating system.[53] VMware software virtualizes the hardware for a video adapter, a network adapter, and hard disk adapters. The host provides pass-through drivers for guest USB, serial, and parallel devices. In this way, VMware virtual machines become highly portable between computers, because every host looks nearly identical to the guest. In practice, a system administrator can pause operations on a virtual machine guest, move or copy that guest to another physical computer, and there resume execution exactly at the point of suspension. Alternatively, for enterprise servers, a feature called vMotion allows the migration of operational guest virtual machines between similar but separate hardware hosts sharing the same storage (or, with vMotion Storage, separate storage can be used, too). Each of these transitions is completely transparent to any users on the virtual machine at the time it is being migrated.
+
+VMware Workstation, Server, and ESX take a more optimized path to running target operating systems on the host than that of emulators (such as Bochs) which simulate the function of each CPU instruction on the target machine one-by-one, or that of dynamic recompilation which compiles blocks of machine-instructions the first time they execute, and then uses the translated code directly when the code runs subsequently (Microsoft Virtual PC for Mac OS X takes this approach). VMware software does not emulate an instruction set for different hardware not physically present. This significantly boosts performance, but can cause problems when moving virtual machine guests between hardware hosts using different instruction sets (such as found in 64-bit Intel and AMD CPUs), or between hardware hosts with a differing number of CPUs. Software that is CPU agnostic can usually survive such a transition, unless it is agnostic by forking at startup, in which case, the software or the guest OS must be stopped before moving it, then restarted after the move.
+
+VMware's products predate the virtualization extensions to the x86 instruction set, and do not require virtualization-enabled processors. On newer processors, the hypervisor is now designed to take advantage of the extensions. However, unlike many other hypervisors, VMware still supports older processors. In such cases, it uses the CPU to run code directly whenever possible (as, for example, when running user-mode and virtual 8086 mode code on x86). When direct execution cannot operate, such as with kernel-level and real-mode code, VMware products use binary translation (BT) to re-write the code dynamically. The translated code gets stored in spare memory, typically at the end of the address space, which segmentation mechanisms can protect and make invisible. For these reasons, VMware operates dramatically faster than emulators, running at more than 80% of the speed that the virtual guest operating system would run directly on the same hardware. In one study VMware claims a slowdown over native ranging from 0–6 percent for the VMware ESX Server.[54]
+
+VMware's approach avoids some of the difficulties of virtualization on x86-based platforms. Virtual machines may deal with offending instructions by replacing them, or by simply running kernel code in user mode. Replacing instructions runs the risk that the code may fail to find the expected content if it reads itself; one cannot protect code against reading while allowing normal execution, and replacing in place becomes complicated. Running the code unmodified in user mode will also fail, as most instructions which just read the machine state do not cause an exception and will betray the real state of the program, and certain instructions silently change behavior in user mode. One must always rewrite, performing a simulation of the current program counter in the original location when necessary and (notably) remapping hardware code breakpoints.
+
+Although VMware virtual machines run in user mode, VMware Workstation itself requires the installation of various drivers in the host operating system, notably to dynamically switch the Global Descriptor Table (GDT) and the Interrupt Descriptor Table (IDT).
+
+The VMware product line can also run different operating systems on a dual-boot system simultaneously by booting one partition natively while using the other as a guest within VMware Workstation.
+
+Products[edit]
+Desktop software[edit]
+VMware Workstation, 1999, the first product launched by VMware. This software suite allows users to run multiple instances of x86 or x86-64 -compatible operating systems on a single physical PC. At Workstation Pro v12 as of 2016.
+VMware Fusion provides similar functionality for users of the Intel Mac platform, along with full compatibility with virtual machines created by other VMware products.
+VMware Player was freeware for non-commercial use, without requiring a licence for VMware Workstation or VMware Fusion, and available for commercial use with permission. It was similar to Workstation, with reduced functionality; version numbers were not the same, e.g., Player 7 coexisted with Workstation 11. After version 7.10, VMware Player as such was replaced by VMware Workstation Player version 12, without some of the features of full Workstation Pro.
+VMware Workstation versions 12.0.0, 12.0.1, and 12.1.0 were released at intervals of about two months in 2015.[55] In January 2016 the entire development team behind VMWare Workstation and Fusion was disbanded and all US developers were immediately fired.[8][9][10][12] The future of these products remained vague; the company said that development would continue. On April 24, 2016 maintenance release 12.1.1 was released. VMware announced the release on 8 September 2016 of Workstation 12.5 and Fusion 8.5 as a free upgrade supporting Windows 10 Anniversary edition and Windows Server 2016.[13]
+
+Server software[edit]
+VMware has produced two virtualization products for servers:
+
+VMware vSphere[56] (also called "ESXi"), an enterprise-level product, can deliver greater performance than the freeware VMware Server, due to lower system overhead. VMware ESXi, as a "bare-metal" product, runs directly on the server hardware, allowing virtual servers to also use hardware more or less directly. In addition, VMware ESXi integrates into VMware vCenter, which offers extra services
+VMware Server (formerly called "GSX Server"; obsolete as of 2011)[57] was[58] also provided free of charge for non-commercial use, like VMware Player, and can also set up virtual machines. As a "hosted" application, VMware Server runs within an existing Linux or Windows operating system.
+Cloud management software[edit]
+VMware vRealize Suite - a cloud management platform purpose-built for a hybrid cloud.
+VMware EVO SDDC - EVO SDDC provides an easy way to deploy and operate a private cloud on an integrated SDDC system
+VMware Go was a web-based service to guide users of any expertise level through the installation and configuration of VMware vSphere Hypervisor. It was end-of-lifed in early 2014.
+
+Public cloud[edit]
+VMware vCloud Air is a public cloud computing service.
+
+Virtual desktop infrastructure[edit]
+VMware Horizon View is a virtual desktop infrastructure (VDI) product.
+
+Application management[edit]
+The VMware Workspace Portal is a self-service app store for workspace management[59]
+
+Storage management[edit]
+VMware VSAN (Virtual Storage Area Network), version 6.2 was released in early 2016.[60]
+
+Backup software[edit]
+In April 2011, EMC transferred control of Mozy to VMware.[61]
+
+Mozy produced MozyHome and MozyPro.[62] MozyHome is the consumer version of the Mozy backup service. It is available to buy on a monthly subscription.[63] MozyPro is the business version of the Mozy backup service. MozyPro requires a separate license for each computer that is being backed up, as well as a server license for any server that is being backed up. Customers then pay per gigabyte of data they have in the data center.[64]
+
+Networking and security products[edit]
+vCloud Networking and Security was a software-defined networking and security product. By 2013 it was superseded by VMware NSX, VMware's network virtualization product marketed using the term software-defined data center (SDDC).[65][66] The technology included some acquired from the purchase of Nicira for $1.26 billion, announced in July 2012.[41][42][41] Nicira was founded in 2007 by Martin Casado, Nick McKeown and Scott Shenker. Nicira created their own proprietary versions of the OpenFlow, Open vSwitch, and OpenStack networking projects.[67]
+
+Other products[edit]
+Workspace ONE allows mobile users to access to apps and data.[68]
+
+See also[edit]
+Comparison of platform virtualization software
+Hardware virtualization
+Hypervisor
+VMware VMFS
+References[edit]
+Jump up ^ "Form 10-K, Annual Report for Fiscal Year ended December 31, 2014" (PDF). VMware.com.
+Jump up ^ "VMware leader in virtualization market".
+Jump up ^ Lohr, Steve (2009-08-31). "VMware market share more than 80%". The New York Times. Retrieved 2010-05-27.
+Jump up ^ "VMware, Hyper-V virtualization leave others in the dust".
+Jump up ^ "Understanding full virtualization, paravirtualization, and hardware assist" (PDF). 2007-10-15. Retrieved 2014-12-11.
+Jump up ^ "Investor FAQs". Retrieved 2014-12-11.
+Jump up ^ "ESX Server Architecture". Vmware.com. Archived from the original on January 31, 2009. Retrieved 2009-10-22.
+^ Jump up to: a b "VMware Reports Fourth Quarter and Full Year 2015 Results". Press Release. VMware. January 26, 2016. Retrieved August 25, 2016.
+^ Jump up to: a b Simon Sharwood (January 27, 2016). "VMware axes Fusion and Workstation US devs". The Register. Retrieved August 25, 2016.
+^ Jump up to: a b Simon Sharwood (January 27, 2016). "VMware says vSphere in decline, new multi-cloud plan will ensure growth: Virtzilla beats the street, fires 800, crimps vCloud Air, doubles down on new products". The Register. Retrieved August 25, 2016.
+^ Jump up to: a b Ron Miller (January 26, 2016). "VMware Confirms Layoffs In Earnings Statement As It Prepares For Dell Acquisition". TechCrunch. Retrieved August 25, 2016.
+^ Jump up to: a b Christian Hammond (January 26, 2016). "A Tribute to VMware Workstation, Fusion, and Hosted UI". ChipLog. Retrieved August 25, 2016.
+^ Jump up to: a b Jon Brodkin (30 August 2016). "VMware says "we're not dead," updates Fusion and Workstation for free". Arstechnica.co.uk. Retrieved 8 September 2016.
+Jump up ^ Lashinksky, Adam (2007-10-02). "50 Most Powerful Women in Business — Full speed ahead". CNN. In 1988 she picked up a second master's, in computer science, at the University of California at Berkeley, where she met Rosenblum
+Jump up ^ "Edouard Bugnion lives in the virtual world".
+Jump up ^ "VMware Milestones".
+Jump up ^ "VMware company history".
+Jump up ^ "VMware ready to capitalize on hot server market". June 30, 2015.
+Jump up ^ "EMC Completes Acquisition of VMware". Vmware.com. Retrieved 2013-06-27.
+Jump up ^ Mullins, Robert (2007-08-14). "Update: VMware the bright spot on a gray Wall Street day". IDG News Service. Retrieved 2007-08-15.
+Jump up ^ Savitz, Eric (2008-07-08). "VMware ousts CEO Diane Greene; cuts '08 guidance". Barron's. Retrieved 2009-07-01.
+Jump up ^ "Virtual Networking Features of the VMware vNetwork Distributed Switch and Cisco Nexus 1000V Series Switches" (PDF).
+Jump up ^ Cloud Foundry Frequently Asked Questions
+Jump up ^ "EMC, VMW Analyst Day: Street Awaits 'Pivotal,' Financial Update". Retrieved 2014-12-11.
+Jump up ^ "Using VMware vCloud Connector". Retrieved 2014-12-11.
+Jump up ^ Chris Mellor (11 April 2016). "Cracks show in VMware exec ranks". The Register. Retrieved 11 May 2016.
+Jump up ^ Simon Sharwood (13 May 2016). "VMware CEO Pat Gelsinger quashes departure rumours". Channelregister.co.uk. Retrieved 2 June 2016.
+Jump up ^ "A look at VMware's past acquisitions".
+Jump up ^ "VMware acquires virtualization company Akimbi".
+Jump up ^ "VMware Acquires Dunes Technologies". VMware. Sep 11, 2007.
+Jump up ^ Vidra, Eze (May 28, 2008). "VMWare Snatches B-Hive, Opens R&D Center in Israel". VCcafe.
+Jump up ^ Ward, Keith. "The Next Frontier: Mobile Phone Hypervisors". Virtualizationreview.com. Retrieved 2013-06-27.
+Jump up ^ Marshall, David (2008-12-16), VMware's year end acquisition of Tungsten Graphics, InfoWorld
+Jump up ^ "VMware to Acquire SpringSource".
+Jump up ^ springpeople.com
+Jump up ^ "VMware and PacketMotion: Data Access Monitoring, Network Security & Compliance | United States". www.vmware.com. Retrieved 2016-01-05.
+Jump up ^ "VMware Support for PacketMotion Products | United States". www.vmware.com. Retrieved 2016-01-05.
+Jump up ^ "VMware To Acquire Wanova, Intelligent Desktop Solutions Provider". VMware. 2012-05-22. Retrieved 2012-06-01.
+Jump up ^ "VMware to Acquire DynamicOps, Inc". VMware. 2012-07-02. Retrieved 2013-06-27.
+Jump up ^ "VMware to Acquire Nicira". News release. VMware. July 23, 2012. Retrieved July 11, 2013.
+^ Jump up to: a b c Alex Williams (July 23, 2012). "VMware Buys Nicira For $1.26 Billion And Gives More Clues About Cloud Strategy". TechCrunch. Retrieved August 25, 2016.
+^ Jump up to: a b Julie Bort (October 26, 2014), "The Inside Story Of A $1 Billion Acquisition That Caused Cisco To Divorce Its Closest Partner, EMC", Business Insider, retrieved August 25, 2016
+Jump up ^ "VMware to Acquire Virsto". News release. VMware. February 11, 2013. Retrieved 2013-07-11.
+Jump up ^ "VMware Acquires Desktone". News release. VMware. October 15, 2013. Retrieved 2013-10-15.
+Jump up ^ "VMware's AirWatch Acquisition To Enhance Mobility In End-User Computing". Forbes. Forbes.com LLC. Retrieved 6 March 2014.
+Jump up ^ "VMware to Acquire AirWatch". Retrieved 2014-12-11.
+Jump up ^ "iPhone APIs Ultimately Led to VMware's AirWatch Acquisition". The Wall Street Journal. Dow Jones & Company, Inc. Retrieved 2014-03-06.
+Jump up ^ ZDNet. "VMware buys CloudVolumes for real-time desktop app delivery". zdnet.com. Retrieved 21 August 2014.
+Jump up ^ VMware vCloud Blog. "VMware Acquires Continuent". vmware.com. Retrieved 12 December 2014.
+Jump up ^ "Conservancy Announces Funding for GPL Compliance Lawsuit". Software Freedom Conservancy. Retrieved 6 March 2015.
+Jump up ^ Phipps, Simon (5 March 2015). "VMware heads to court over GPL violations". InfoWorld. Retrieved 11 March 2015.
+Jump up ^ "VMware Update to Mr. Hellwig's Legal Proceedings". VMware. Retrieved 11 March 2015.
+Jump up ^ "How does VMWare Work?". Extremetech.com. 2009-06-22. Retrieved 2009-07-01.
+Jump up ^ "A Performance Comparison of Hypervisors" (PDF).
+Jump up ^ "Download VMware Workstation Player". VMware. Retrieved 11 May 2016. Download site for VMware Player 7.x and Workstation Player 12.x
+Jump up ^ VMware ESXi Bare-Metal Hypervisor for Multiple Virtual Machines - United States. VMware.com. Retrieved on 2013-10-16.
+Jump up ^ "VMware Products Life Cycle Policies". VMware.
+Jump up ^ "VMware Server, Free Virtualization Download for Virtual Server Consolidation". Vmware.com. 2011-06-30. Retrieved 2013-06-27.
+Jump up ^ "Workspace Portal". VMware. 2015-03-12. Retrieved 2015-03-12.
+Jump up ^ Forrest, Conner (February 10, 2016). "VMware VSAN 6.2: The 3 things you need to know". TechRepublic. Retrieved 2016-02-10.
+Jump up ^ Mellor, Chris (April 5, 2011). "VMware 'buys' Mozy for its cloudy goodness". The Register. Retrieved October 3, 2013.
+Jump up ^ "MozyHome / MozyPro". CrunchBase. January 1, 2008. Retrieved 2010-08-30.
+Jump up ^ Kodesh, Harel (February 1, 2011). "New MozyHome Plans". Retrieved 2011-02-02.
+Jump up ^ "MozyPro Launches". TechCrunch. April 3, 2007. Retrieved 2010-08-31.
+Jump up ^ Morreale, Patricia A.; Anderson, James M. (2014-12-03). Software Defined Networking: Design and Deployment. CRC Press (published 2014). p. 75. ISBN 9781482238631. Retrieved 2014-11-14. VMware NSX creates a virtual network overlay that is loosely coupled to the physical network underneath.
+Jump up ^ Timothy Prickett Morgan (March 14, 2013). "VMware NSX mashes up Nicira and homegrown network virt: Virtualizing entire data centers, including admins for systems and networks". The Register. Retrieved August 25, 2016.
+Jump up ^ Matthew Palmer (July 13, 2012). "vSwitch the New Battleground for Network Virtualization". Sdncentral.com. Retrieved August 25, 2016.
+Jump up ^ Hernandez, Pedro (2016-06-13). "VMware Workspace ONE Anchors Mobile Management on Identity". Mobile/Wireless. Datamation. QuinStreet Inc. Retrieved 2016-06-23. [...] Workspace ONE [...] integrates elements from AirWatch, VMware Identity Manager and Horizon Air to create secure, user-centric app experiences for both mobile workers and IT administrators based on user identities and policies governing their access to corporate apps and data.
+External links[edit]
+	Wikimedia Commons has media related to VMware.
+Official website
+[show] v t e
+EMC Corporation
+[show] v t e
+Major information technology companies
+Categories: 1998 establishments in CaliforniaCloud computing providersCompanies based in Palo Alto, CaliforniaCompanies established in 1998Companies listed on the New York Stock ExchangeEMC CorporationSoftware companies based in the San Francisco Bay AreaVMware
+Navigation menu
+Not logged inTalkContributionsCreate accountLog inArticleTalkReadEditView historySearch
+
+Search Wikipedia
+Go
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+Wikipedia store
+Interaction
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact page
+Tools
+What links here
+Related changes
+Upload file
+Special pages
+Permanent link
+Page information
+Wikidata item
+Cite this page
+Print/export
+Create a book
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+Languages
+العربية
+বাংলা
+Català
+Čeština
+Deutsch
+Ελληνικά
+Español
+فارسی
+Français
+한국어
+Bahasa Indonesia
+Italiano
+עברית
+Қазақша
+Limburgs
+Magyar
+മലയാളം
+Nederlands
+日本語
+Norsk bokmål
+Occitan
+Polski
+Português
+Română
+Русский
+Simple English
+Српски / srpski
+Suomi
+Svenska
+Türkçe
+Українська
+Tiếng Việt
+中文
+Edit links
+This page was last modified on 16 November 2016, at 11:58.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaDevelopersCookie statementMobile viewWikimedia Foundation Powered by MediaWiki

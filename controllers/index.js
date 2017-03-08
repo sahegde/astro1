@@ -2,7 +2,7 @@
 
 var IndexModel = require('../models/index');
 var HealthModel = require('../models/health');
-
+var fs = require('fs')
 
 module.exports = function (router) {
 
@@ -20,7 +20,23 @@ module.exports = function (router) {
     });
 
     router.get('/healthData', function (req, res) { 
-        res.json(health.val); 
+        fs.readFile('/Users/hsandeep/Desktop/gitRepos/astroDataGen/astroDataGen/src/main/resources/sand/part-00000', 'utf8', function (err,data) {
+          if (err) {
+            return console.log(err);
+          }
+          data = data.slice(0,-1);
+          console.log(data);
+          res.json(data); 
+        });
+    });
+
+    router.get('/graphData', function (req, res) { 
+        res.json({
+                columns: [
+                    ['data1', Math.floor((Math.random() * 500) + 1), Math.floor((Math.random() * 500) + 1), Math.floor((Math.random() * 500) + 1), Math.floor((Math.random() * 500) + 1), Math.floor((Math.random() * 500) + 1), Math.floor((Math.random() * 500) + 1)],
+                    ['data2', Math.floor((Math.random() * 100) + 1), Math.floor((Math.random() * 100) + 1), Math.floor((Math.random() * 100) + 1), Math.floor((Math.random() * 100) + 1), Math.floor((Math.random() * 100) + 1), Math.floor((Math.random() * 100) + 1)]
+                ]
+            });
     });
 
     router.post('/data', function(req,res) {

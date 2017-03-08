@@ -5,7 +5,56 @@
         <title>{+title /}</title>
     
         <link rel="stylesheet" href="/css/app.css">
-    
+          <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600,200italic,600italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+
+          <script src="http://phuonghuynh.github.io/js/bower_components/jquery/dist/jquery.min.js"></script>
+          <script src="http://phuonghuynh.github.io/js/bower_components/d3/d3.min.js"></script>
+          <script src="http://phuonghuynh.github.io/js/bower_components/d3-transform/src/d3-transform.js"></script>
+          <script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/extarray.js"></script>
+          <script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/misc.js"></script>
+          <script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/micro-observer.js"></script>
+          <script src="http://phuonghuynh.github.io/js/bower_components/microplugin/src/microplugin.js"></script>
+          <script src="http://phuonghuynh.github.io/js/bower_components/bubble-chart/src/bubble-chart.js"></script>
+          <script src="http://phuonghuynh.github.io/js/bower_components/bubble-chart/src/plugins/central-click/central-click.js"></script>
+          <script src="http://phuonghuynh.github.io/js/bower_components/bubble-chart/src/plugins/lines/lines.js"></script>
+          <script src="index.js"></script>
+          <style>
+            .bubbleChart {
+              min-width: 100px;
+              max-width: 700px;
+              height: 700px;
+              margin: 0 auto;
+            }
+            .bubbleChart svg{
+              background: #000000;
+            }
+            div#fixedheader {
+            position:fixed;
+            top:0px;
+            left:0px;
+            width:100%;
+            color:#CCC;
+            background:#333;
+            padding:20px;
+            }
+            div#fixedfooter {
+                position:fixed;
+                bottom:0px;
+                left:0px;
+                width:100%;
+                color:#CCC;
+                background:#333;
+                padding:8px;
+            }    
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+.w3-sidenav a,.w3-sidenav h4 {font-weight:bold}
+        </style>
     </head>
     <style>
 
@@ -21,7 +70,7 @@
         }
 
     </style>
-    <body>
+    <body style="background: #000000 w3-light-grey w3-content;max-width:1600px">
 
         <div id="wrapper">
             {+body /}
